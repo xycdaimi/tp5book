@@ -1,0 +1,1391 @@
+---------------------------------------------------------------
+[ 2023-12-21T23:40:11+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.077636s] [吞吐率：12.88req/s] [内存消耗：258.46kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:40:13+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.015980s] [吞吐率：62.58req/s] [内存消耗：128.48kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:40:21+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.037116s] [吞吐率：26.94req/s] [内存消耗：385.20kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPo3AdAaCY0Hiah37',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002643s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003048s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.001782s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:40:22+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.017073s] [吞吐率：58.57req/s] [内存消耗：233.78kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'name',
+  1 => 'borrow',
+  2 => 'home',
+  3 => 'book',
+  4 => 'back',
+  5 => 'overtime',
+  6 => 'users',
+  7 => 'about',
+  8 => 'system',
+  9 => 'exit',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:40:22+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.065067s] [吞吐率：15.37req/s] [内存消耗：347.75kb] [文件加载：53]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+  0 => 'book',
+  1 => 'over',
+  2 => 'borrow',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023811s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.002372s ]
+[ sql ] [ SQL ] SELECT SUM(total) AS tp_sum FROM `book` LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `borrow` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` WHERE  `r_time` < '2023-12-21 23-40-22' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1 [ RunTime:0.000909s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:40:24+08:00 ] 0.0.0.0 GET xyc.com:8085/borrow
+[运行时间：0.014536s] [吞吐率：68.80req/s] [内存消耗：129.42kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'borrow',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->borrow[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:42:24+08:00 ] 0.0.0.0 POST xyc.com:8085/search
+[运行时间：0.036282s] [吞吐率：27.56req/s] [内存消耗：314.03kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'search2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUEB3IWmB6MPQDyip',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'text' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->search2[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013583s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` LIKE '%9780000000005%' ORDER BY `isbn` LIMIT 1 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:43:28+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.035478s] [吞吐率：28.19req/s] [内存消耗：344.42kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynKoQXlTr2AohSu87',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021770s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:45:20+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.028187s] [吞吐率：35.48req/s] [内存消耗：233.14kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'name',
+  1 => 'borrow',
+  2 => 'home',
+  3 => 'book',
+  4 => 'back',
+  5 => 'overtime',
+  6 => 'users',
+  7 => 'about',
+  8 => 'system',
+  9 => 'exit',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:45:20+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.040261s] [吞吐率：24.84req/s] [内存消耗：346.72kb] [文件加载：53]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+  0 => 'book',
+  1 => 'over',
+  2 => 'borrow',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017965s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT SUM(total) AS tp_sum FROM `book` LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `borrow` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` WHERE  `r_time` < '2023-12-21 23-45-20' LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1 [ RunTime:0.000785s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:45:21+08:00 ] 0.0.0.0 GET xyc.com:8085/borrow
+[运行时间：0.013253s] [吞吐率：75.45req/s] [内存消耗：129.33kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'borrow',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->borrow[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:45:49+08:00 ] 0.0.0.0 POST xyc.com:8085/search
+[运行时间：0.037831s] [吞吐率：26.43req/s] [内存消耗：314.03kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'search2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypN7APr3cU3qXlEvu',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'text' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->search2[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015731s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` LIKE '%9780000000005%' ORDER BY `isbn` LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:45:51+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.029729s] [吞吐率：33.64req/s] [内存消耗：344.42kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3o9CBJZ8IjgBVcA0',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016607s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:46:01+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.021983s] [吞吐率：45.49req/s] [内存消耗：82.09kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:46:36+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.030761s] [吞吐率：32.51req/s] [内存消耗：344.42kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQy0b6Of5LlOOnL7z',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017116s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:46:42+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.016564s] [吞吐率：60.37req/s] [内存消耗：233.14kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'name',
+  1 => 'borrow',
+  2 => 'home',
+  3 => 'book',
+  4 => 'back',
+  5 => 'overtime',
+  6 => 'users',
+  7 => 'about',
+  8 => 'system',
+  9 => 'exit',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:46:42+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.043536s] [吞吐率：22.97req/s] [内存消耗：346.72kb] [文件加载：53]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+  0 => 'book',
+  1 => 'over',
+  2 => 'borrow',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018856s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT SUM(total) AS tp_sum FROM `book` LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `borrow` [ RunTime:0.001700s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` WHERE  `r_time` < '2023-12-21 23-46-42' LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1 [ RunTime:0.000834s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:46:42+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.013643s] [吞吐率：73.30req/s] [内存消耗：81.13kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:46:42+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.012046s] [吞吐率：83.01req/s] [内存消耗：81.13kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:46:45+08:00 ] 0.0.0.0 GET xyc.com:8085/borrow
+[运行时间：0.012758s] [吞吐率：78.38req/s] [内存消耗：129.33kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'borrow',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->borrow[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:46:45+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.010812s] [吞吐率：92.49req/s] [内存消耗：81.13kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:46:47+08:00 ] 0.0.0.0 POST xyc.com:8085/search
+[运行时间：0.037477s] [吞吐率：26.68req/s] [内存消耗：314.03kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'search2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryO6NVohSe3OkBRX6S',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'text' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->search2[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025384s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001611s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` LIKE '%9780000000005%' ORDER BY `isbn` LIMIT 1 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:46:51+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.033118s] [吞吐率：30.20req/s] [内存消耗：344.42kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryk34YvtFnTAdUFJM2',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019600s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:47:52+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.028791s] [吞吐率：34.73req/s] [内存消耗：233.14kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'name',
+  1 => 'borrow',
+  2 => 'home',
+  3 => 'book',
+  4 => 'back',
+  5 => 'overtime',
+  6 => 'users',
+  7 => 'about',
+  8 => 'system',
+  9 => 'exit',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:47:52+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.027199s] [吞吐率：36.77req/s] [内存消耗：346.72kb] [文件加载：53]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+  0 => 'book',
+  1 => 'over',
+  2 => 'borrow',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001074s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT SUM(total) AS tp_sum FROM `book` LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `borrow` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` WHERE  `r_time` < '2023-12-21 23-47-52' LIMIT 1 [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1 [ RunTime:0.001211s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:47:52+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.011284s] [吞吐率：88.62req/s] [内存消耗：81.13kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:47:52+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.020169s] [吞吐率：49.58req/s] [内存消耗：81.13kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:47:53+08:00 ] 0.0.0.0 GET xyc.com:8085/borrow
+[运行时间：0.016471s] [吞吐率：60.71req/s] [内存消耗：129.33kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'borrow',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->borrow[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:47:54+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.011362s] [吞吐率：88.01req/s] [内存消耗：81.13kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:47:56+08:00 ] 0.0.0.0 POST xyc.com:8085/search
+[运行时间：0.036203s] [吞吐率：27.62req/s] [内存消耗：314.03kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'search2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzeABcBXlhZD0qwDz',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'text' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->search2[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021498s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` LIKE '%9780000000005%' ORDER BY `isbn` LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:47:57+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.033874s] [吞吐率：29.52req/s] [内存消耗：344.42kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1DHrZiRiT4uSjfA6',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020959s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:48:42+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.016786s] [吞吐率：59.57req/s] [内存消耗：233.14kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'name',
+  1 => 'borrow',
+  2 => 'home',
+  3 => 'book',
+  4 => 'back',
+  5 => 'overtime',
+  6 => 'users',
+  7 => 'about',
+  8 => 'system',
+  9 => 'exit',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:48:42+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.055231s] [吞吐率：18.11req/s] [内存消耗：346.72kb] [文件加载：53]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+  0 => 'book',
+  1 => 'over',
+  2 => 'borrow',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017209s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001655s ]
+[ sql ] [ SQL ] SELECT SUM(total) AS tp_sum FROM `book` LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `borrow` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` WHERE  `r_time` < '2023-12-21 23-48-42' LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1 [ RunTime:0.000814s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:48:43+08:00 ] 0.0.0.0 GET xyc.com:8085/borrow
+[运行时间：0.013883s] [吞吐率：72.03req/s] [内存消耗：129.33kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'borrow',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->borrow[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-21T23:48:45+08:00 ] 0.0.0.0 POST xyc.com:8085/search
+[运行时间：0.027003s] [吞吐率：37.03req/s] [内存消耗：314.03kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'search2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJH9JzlKV2DxVaELq',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'text' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->search2[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015914s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` LIKE '%9780000000005%' ORDER BY `isbn` LIMIT 1 [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:48:46+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.023495s] [吞吐率：42.56req/s] [内存消耗：344.42kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBvKHrxUZNENuOIoU',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011379s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2023-12-21T23:56:45+08:00 ] 0.0.0.0 POST xyc.com:8085/borrowBook
+[运行时间：0.027141s] [吞吐率：36.84req/s] [内存消耗：345.20kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'borrowbook1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '657',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGWQfyJRAK6UkE3I9',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/borrow',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mjnjjjachv7a1n6samn34pnjtj',
+)
+[ info ] [ PARAM ] array (
+  'username' => '管理员',
+  'id-card' => '22020000',
+  'phone' => '13700000000',
+  'type' => 'borrow',
+  'name' => '西窗法雨',
+  'isbn' => '9780000000005',
+)
+[ info ] [ RUN ] app\index\controller\Base->borrowbook1[ A:\wamp64\www\phptp5\application\index\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book` [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `book` WHERE  `isbn` = '9780000000005' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = '管理员'  AND `id_card` = 22020000  AND `phone` = '13700000000' [ RunTime:0.000406s ]

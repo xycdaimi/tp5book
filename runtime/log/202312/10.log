@@ -1,0 +1,3835 @@
+---------------------------------------------------------------
+[ 2023-12-10T10:36:12+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.087937s] [吞吐率：11.37req/s] [内存消耗：240.83kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T10:36:15+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.015190s] [吞吐率：65.83req/s] [内存消耗：110.91kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T10:36:15+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/login.js
+[运行时间：0.014566s] [吞吐率：68.65req/s] [内存消耗：65.94kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'login.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:25:41+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.028626s] [吞吐率：34.93req/s] [内存消耗：111.42kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:25:41+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/login.js
+[运行时间：0.012062s] [吞吐率：82.90req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'login.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:25:44+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.022078s] [吞吐率：45.29req/s] [内存消耗：117.35kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:25:46+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.012683s] [吞吐率：78.84req/s] [内存消耗：110.81kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:25:46+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/login.js
+[运行时间：0.018291s] [吞吐率：54.67req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'login.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:26:10+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.027988s] [吞吐率：35.73req/s] [内存消耗：111.38kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:26:12+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.014974s] [吞吐率：66.78req/s] [内存消耗：111.81kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:26:12+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.016771s] [吞吐率：59.63req/s] [内存消耗：111.63kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:26:12+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/home.js
+[运行时间：0.011990s] [吞吐率：83.40req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'home.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/home',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:26:19+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.014318s] [吞吐率：69.84req/s] [内存消耗：112.11kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:32:08+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.032486s] [吞吐率：30.78req/s] [内存消耗：117.82kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:32:08+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/login.js
+[运行时间：0.011889s] [吞吐率：84.11req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'login.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:32:10+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.013434s] [吞吐率：74.44req/s] [内存消耗：111.23kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:32:10+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/login.js
+[运行时间：0.011068s] [吞吐率：90.35req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'login.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T11:32:14+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.013339s] [吞吐率：74.97req/s] [内存消耗：109.27kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123',
+  'password' => '',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:05:21+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.030248s] [吞吐率：33.06req/s] [内存消耗：117.87kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:05:30+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.019159s] [吞吐率：52.20req/s] [内存消耗：95.51kb] [文件加载：41]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '340',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjTvLItVLvPy1BZGh',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123',
+  'password' => '2123',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:07:32+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.037666s] [吞吐率：26.55req/s] [内存消耗：117.87kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:07:43+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.018799s] [吞吐率：53.19req/s] [内存消耗：95.01kb] [文件加载：41]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '339',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCQ73L0u4hk9Keqvx',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123',
+  'password' => '123',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:07:45+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.007490s] [吞吐率：133.51req/s] [内存消耗：94.73kb] [文件加载：41]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '339',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySGE4mkPAeQJpK4Tk',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123',
+  'password' => '123',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:07:58+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.017814s] [吞吐率：56.14req/s] [内存消耗：111.23kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:08:03+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.007712s] [吞吐率：129.67req/s] [内存消耗：94.73kb] [文件加载：41]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '339',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryahpRbk4ChUaPtzid',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123',
+  'password' => '123',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:08:12+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.014801s] [吞吐率：67.56req/s] [内存消耗：111.00kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T12:08:14+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.013152s] [吞吐率：76.03req/s] [内存消耗：110.81kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:42:20+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.038392s] [吞吐率：26.05req/s] [内存消耗：110.52kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:42:23+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.014910s] [吞吐率：67.07req/s] [内存消耗：110.81kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:42:54+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.029661s] [吞吐率：33.71req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:43:01+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.049496s] [吞吐率：20.20req/s] [内存消耗：873.88kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:48:38+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.029420s] [吞吐率：33.99req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:48:46+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.043199s] [吞吐率：23.15req/s] [内存消耗：809.03kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:48:59+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.029265s] [吞吐率：34.17req/s] [内存消耗：808.64kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:49:14+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.025296s] [吞吐率：39.53req/s] [内存消耗：808.55kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:50:41+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.029326s] [吞吐率：34.10req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:50:48+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.042294s] [吞吐率：23.64req/s] [内存消耗：808.55kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:51:29+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.028243s] [吞吐率：35.41req/s] [内存消耗：808.64kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:51:39+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.025080s] [吞吐率：39.87req/s] [内存消耗：808.64kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:51:41+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.024371s] [吞吐率：41.03req/s] [内存消耗：808.55kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:51:48+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.015255s] [吞吐率：65.55req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:51:55+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.024666s] [吞吐率：40.54req/s] [内存消耗：808.55kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:52:16+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.024884s] [吞吐率：40.19req/s] [内存消耗：808.64kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:58:28+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.043918s] [吞吐率：22.77req/s] [内存消耗：808.64kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:58:35+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.041553s] [吞吐率：24.07req/s] [内存消耗：808.55kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:59:19+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.025434s] [吞吐率：39.32req/s] [内存消耗：808.64kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:59:24+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.016390s] [吞吐率：61.01req/s] [内存消耗：111.00kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:59:26+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.014803s] [吞吐率：67.55req/s] [内存消耗：110.81kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T19:59:32+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.025540s] [吞吐率：39.15req/s] [内存消耗：808.55kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T19:59:59+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.014994s] [吞吐率：66.69req/s] [内存消耗：109.60kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:01:47+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.043839s] [吞吐率：22.81req/s] [内存消耗：809.04kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T20:01:59+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.044420s] [吞吐率：22.51req/s] [内存消耗：809.04kb] [文件加载：51]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [64]Array and string offset access syntax with curly braces is no longer supported[A:\wamp64\www\phptp5\thinkphp\library\think\db\Query.php:400]
+---------------------------------------------------------------
+[ 2023-12-10T20:04:39+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.061141s] [吞吐率：16.36req/s] [内存消耗：378.63kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008059s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006080s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:04:45+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.051520s] [吞吐率：19.41req/s] [内存消耗：313.95kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014380s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002477s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:05:24+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.021617s] [吞吐率：46.26req/s] [内存消耗：313.56kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001031s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002816s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:05:30+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.032179s] [吞吐率：31.08req/s] [内存消耗：313.28kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012683s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002457s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:05:40+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.036144s] [吞吐率：27.67req/s] [内存消耗：313.59kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015964s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002475s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000838s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:05:52+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.037859s] [吞吐率：26.41req/s] [内存消耗：313.59kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017844s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002070s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:06:31+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.017858s] [吞吐率：56.00req/s] [内存消耗：195.09kb] [文件加载：54]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Undefined variable $username[A:\wamp64\www\phptp5\application\index\controller\Login.php:11]
+---------------------------------------------------------------
+[ 2023-12-10T20:06:57+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.039671s] [吞吐率：25.21req/s] [内存消耗：286.18kb] [文件加载：53]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001591s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001675s ]
+[ error ] [0]查询表达式错误:admin[A:\wamp64\www\phptp5\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2023-12-10T20:07:18+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.056912s] [吞吐率：17.57req/s] [内存消耗：314.00kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020547s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:07:31+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.017912s] [吞吐率：55.83req/s] [内存消耗：195.09kb] [文件加载：54]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Undefined variable $username[A:\wamp64\www\phptp5\application\index\controller\Login.php:11]
+---------------------------------------------------------------
+[ 2023-12-10T20:07:42+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.017322s] [吞吐率：57.73req/s] [内存消耗：195.09kb] [文件加载：54]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Undefined variable $username[A:\wamp64\www\phptp5\application\index\controller\Login.php:11]
+---------------------------------------------------------------
+[ 2023-12-10T20:08:24+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.036624s] [吞吐率：27.30req/s] [内存消耗：314.00kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016981s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002194s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:08:45+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.030901s] [吞吐率：32.36req/s] [内存消耗：314.89kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011595s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' LIMIT 1 [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:22:07+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.040281s] [吞吐率：24.83req/s] [内存消耗：313.99kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002130s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002980s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `book_count` = 3 LIMIT 1 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:22:36+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.055916s] [吞吐率：17.88req/s] [内存消耗：313.91kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018865s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002069s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' LIMIT 1 [ RunTime:0.000704s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:23:09+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.041614s] [吞吐率：24.03req/s] [内存消耗：286.95kb] [文件加载：52]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018065s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002272s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' [ RunTime:0.000703s ]
+[ error ] [0]variable type error： array[A:\wamp64\www\phptp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2023-12-10T20:25:41+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.037528s] [吞吐率：26.65req/s] [内存消耗：317.34kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001951s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002716s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' ORDER BY `id` DESC [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:27:49+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.051155s] [吞吐率：19.55req/s] [内存消耗：314.06kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015665s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002470s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:30:15+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.032046s] [吞吐率：31.21req/s] [内存消耗：215.38kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:30:58+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.056044s] [吞吐率：17.84req/s] [内存消耗：313.66kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021824s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001755s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:31:09+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.031334s] [吞吐率：31.91req/s] [内存消耗：317.34kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012261s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' ORDER BY `id` DESC [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:31:56+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.031339s] [吞吐率：31.91req/s] [内存消耗：319.89kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012808s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' ORDER BY `id` DESC [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:36:25+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.049677s] [吞吐率：20.13req/s] [内存消耗：316.05kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015572s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' LIMIT 1 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:36:46+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.058491s] [吞吐率：17.10req/s] [内存消耗：313.50kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023904s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002336s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:37:05+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.040959s] [吞吐率：24.41req/s] [内存消耗：286.24kb] [文件加载：52]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020529s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001766s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' LIMIT 1 [ RunTime:0.000414s ]
+[ error ] [0]类的属性不存在:app\index\model\User->username[A:\wamp64\www\phptp5\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2023-12-10T20:38:13+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.033750s] [吞吐率：29.63req/s] [内存消耗：313.29kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015184s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001815s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' LIMIT 1 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:38:29+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.054861s] [吞吐率：18.23req/s] [内存消耗：313.50kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020437s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:39:31+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.060192s] [吞吐率：16.61req/s] [内存消耗：286.95kb] [文件加载：52]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023900s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' [ RunTime:0.000451s ]
+[ error ] [0]variable type error： array[A:\wamp64\www\phptp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2023-12-10T20:40:40+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.039284s] [吞吐率：25.46req/s] [内存消耗：302.95kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012323s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002096s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:41:18+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.034105s] [吞吐率：29.32req/s] [内存消耗：317.64kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015115s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = '学生' [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:41:46+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.040804s] [吞吐率：24.51req/s] [内存消耗：313.89kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017891s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001957s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:42:08+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.049261s] [吞吐率：20.30req/s] [内存消耗：314.69kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013970s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002503s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:43:09+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.052371s] [吞吐率：19.09req/s] [内存消耗：314.69kb] [文件加载：50]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'origin' => 'http://xyc.com:8085',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'login-button' => '登录',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020719s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002082s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:45:13+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.032508s] [吞吐率：30.76req/s] [内存消耗：117.87kb] [文件加载：46]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:45:22+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.038842s] [吞吐率：25.75req/s] [内存消耗：300.22kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTdKBcZSR1MpGx4ok',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013217s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:46:05+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.019056s] [吞吐率：52.48req/s] [内存消耗：111.23kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:46:13+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.037247s] [吞吐率：26.85req/s] [内存消耗：299.86kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywsVSV2WDRhGnob2F',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022519s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:46:37+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.014330s] [吞吐率：69.78req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:46:44+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.031074s] [吞吐率：32.18req/s] [内存消耗：299.86kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9gfQ41HAbs0zTzpc',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017849s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002070s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:47:03+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.025764s] [吞吐率：38.81req/s] [内存消耗：299.86kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHTZLcTWx2gyOcBRk',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012918s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001624s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:47:04+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.013806s] [吞吐率：72.43req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:47:11+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.036095s] [吞吐率：27.70req/s] [内存消耗：299.86kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrtCfITFEJYONFiSz',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024026s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:48:08+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.028630s] [吞吐率：34.93req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:48:14+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.035044s] [吞吐率：28.54req/s] [内存消耗：299.86kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUHYQNSFWGHSXF0Iz',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010755s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:48:29+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.019049s] [吞吐率：52.50req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:48:35+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.025858s] [吞吐率：38.67req/s] [内存消耗：299.86kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygddBUkHtAKMV84Sz',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012134s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:49:28+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.014963s] [吞吐率：66.83req/s] [内存消耗：111.14kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:49:35+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.028240s] [吞吐率：35.41req/s] [内存消耗：300.14kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvsshTlUbRSVgpdet',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015217s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:49:38+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.015557s] [吞吐率：64.28req/s] [内存消耗：111.57kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:49:38+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.015039s] [吞吐率：66.49req/s] [内存消耗：111.54kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:49:38+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/home.js
+[运行时间：0.015520s] [吞吐率：64.43req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'home.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/home',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:49:38+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.012967s] [吞吐率：77.12req/s] [内存消耗：64.76kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:49:38+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/popper.min.js.map
+[运行时间：0.012034s] [吞吐率：83.10req/s] [内存消耗：64.76kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'popper.min.js.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:53:39+08:00 ] 0.0.0.0 GET xyc.com:8085/
+[运行时间：0.028119s] [吞吐率：35.56req/s] [内存消耗：111.00kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'start',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:53:41+08:00 ] 0.0.0.0 GET xyc.com:8085/login
+[运行时间：0.013773s] [吞吐率：72.61req/s] [内存消耗：110.81kb] [文件加载：44]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ A:\wamp64\www\phptp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:53:49+08:00 ] 0.0.0.0 POST xyc.com:8085/index/login
+[运行时间：0.044383s] [吞吐率：22.53req/s] [内存消耗：300.14kb] [文件加载：49]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryD3PaudWytKBmBGsW',
+  'origin' => 'http://xyc.com:8085',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'request' => 'login',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ A:\wamp64\www\phptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019622s ] mysql:host=127.0.0.1;port=3306;dbname=library;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin'  AND `password` = '123456' [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2023-12-10T20:53:50+08:00 ] 0.0.0.0 GET xyc.com:8085/admin
+[运行时间：0.018855s] [吞吐率：53.04req/s] [内存消耗：111.57kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:53:50+08:00 ] 0.0.0.0 GET xyc.com:8085/home
+[运行时间：0.014197s] [吞吐率：70.44req/s] [内存消耗：111.54kb] [文件加载：43]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'referer' => 'http://xyc.com:8085/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->home[ A:\wamp64\www\phptp5\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-10T20:53:50+08:00 ] 0.0.0.0 GET xyc.com:8085/static/js/home.js
+[运行时间：0.011656s] [吞吐率：85.79req/s] [内存消耗：64.98kb] [文件加载：38]
+[ info ] [ LANG ] A:\wamp64\www\phptp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'home.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xyc.com:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+  'accept' => '*/*',
+  'referer' => 'http://xyc.com:8085/home',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
