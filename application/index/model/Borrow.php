@@ -12,4 +12,11 @@ class Borrow extends Model
     function getCount(){
         return $this->count();
     }
+    function getBorrow($page){
+        return $this->order('isbn')->paginate($page);
+    }
+    function getOver($page){
+        $date = date("Y-m-d H-i-s");
+        return $this->order('isbn')->where('r_time','<',$date)->paginate($page);
+    }
 }

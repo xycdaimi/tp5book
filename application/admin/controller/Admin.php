@@ -56,7 +56,7 @@ class Admin extends Base
         $text = input('search-text');
         $group = new BookType;
         $groups = $group->getGroups();
-        $book=$this->search1($text,$type);
+        $book=$this->searchbook1($text,$type);
         $this->assign('data',$book['data']);
         $this->assign('p',$book['p']);
         $this->assign('groups',$groups);
@@ -66,12 +66,50 @@ class Admin extends Base
         return $this->fetch();
     }
     public function back(){
+        $borrow = new Borrow;
+        $data = $borrow->getBorrow(10);
+        $p=input('page');
+        if($p>0){
+            $p=($p-1)*10;
+        }
+        $this->assign('data',$data);
+        $this->assign('p',$p);
         return $this->fetch();
+    }
+    public function searchborrow(){
+        $text = input('search-text');
+        $book=$this->searchborrow1($text);
+        $this->assign('data',$book['data']);
+        $this->assign('p',$book['p']);
+        return $this->fetch('back');  
     }
     public function overtime(){
+        $borrow = new Borrow;
+        $data = $borrow->getOver(10);
+        $p=input('page');
+        if($p>0){
+            $p=($p-1)*10;
+        }
+        $this->assign('data',$data);
+        $this->assign('p',$p);
         return $this->fetch();
     }
+    public function searchover(){
+        $text = input('search-text');
+        $over = $this->over($text);
+        $this->assign('data',$over['data']);
+        $this->assign('p',$over['p']);
+        return $this->fetch('overtime');  
+    }
     public function users(){
+        $user = new User;
+        $data = $user->getUser(10);
+        $p=input('page');
+        if($p>0){
+            $p=($p-1)*10;
+        }
+        $this->assign('data',$data);
+        $this->assign('p',$p);
         return $this->fetch();
     }
     public function about()

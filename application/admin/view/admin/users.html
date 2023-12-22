@@ -20,7 +20,7 @@
                         <button class="btn btn-success" data-toggle="modal" data-target="#add-user-modal"><i class="bi bi-plus-lg"></i>添加用户</button>
                     </div>
                     <div class="col-lg-8">
-                        <form method="get" id="search-form">
+                        <form method="get" id="search-form" action="searchUser">
                             <div class="search">
                                 <select name="search-type" id="search-type" class="form-control">
                                     <option value="name">名字</option>
@@ -54,6 +54,21 @@
                             </tr>
                         </thead>
                         <tbody>
+                            {volist name='data' id='table'}
+                            <tr>
+                            <th>{$table.Id}</th>
+                            <td>{$table.name}</td>
+                            <td>{$table.gender}</td>
+                            <td>{$table.id_card}</td>
+                            <td>{$table.phone}</td>
+                            <td>{$table.identity}</td>
+                            <td>{$table.book_count}</td>
+                            <td>
+                                <button class="btn btn-primary btn-edit" data-toggle="modal" data-target="#edit-user-modal" name="{$table.Id}"><i class="bi bi-pencil-square"></i>编辑</button>
+                                <button class="btn btn-danger btn-delete" data-toggle="modal" data-target="#delete-user-modal" name="{$table.Id}"><i class="bi bi-trash"></i>删除</button>
+                            </td>
+                            </tr>
+                            {/volist}
                         <!-- 样板 -->
                         <!-- <tr>
                             <th>1</th>
@@ -73,7 +88,7 @@
                 </div>
 
                 <div class="page-box">
-                    <div class="m-style pag-box"></div>
+                    <div class="m-style pag-box">{$data->render()}</div>
                 </div>
             </div>
         </div>
@@ -199,7 +214,6 @@
         </div>
     </div>
     <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/jquery.pagination.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/js/users.js"></script>

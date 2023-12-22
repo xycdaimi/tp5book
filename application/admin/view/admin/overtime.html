@@ -20,7 +20,7 @@
                     <div class="col-lg-2">
                     </div>
                     <div class="col-lg-8">
-                        <form id="search-form">
+                        <form id="search-form" method="get" action="searchOver">
                             <div class="search">
                                 <input type="text" class="form-control" name="search-text" id="search-text" placeholder="ISBN号码">
                                 <button type="submit" class="btn btn-primary btn-search" name="search-button" id="search-button">搜索</button>
@@ -49,6 +49,18 @@
                             </tr>
                         </thead>
                         <tbody>
+                            {volist name='data' id='table'}
+                            <tr>
+                            <th>{++$p}</th>
+                            <td class="name">{$table.name}</td>
+                            <td>{$table.isbn}</td>
+                            <td>{$table.username}</td>
+                            <td>{$table.id_card}</td>
+                            <td>{$table.phone}</td>
+                            <td>{$table.time}</td>
+                            <td>{$table.r_time}</td>
+                            </tr>
+                            {/volist}
                         <!-- 样板 -->
                         <!-- <tr>
                             <th>1</th>
@@ -65,15 +77,13 @@
                 </div>
 
                 <div class="page-box">
-                    <div class="m-style pag-box"></div>
+                    <div class="m-style pag-box">{$data->render()}</div>
                 </div>
             </div>
         </div>
     </div>
     <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/jquery.pagination.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/static/js/overtime.js"></script>
 </body>
 </html>

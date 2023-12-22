@@ -62,6 +62,7 @@ class Register extends Controller
         $user->phone=$phone;
         $user->identity=$identity;
         $user->book_count=$bookCount;
+        $user->had_count=$bookCount;
         $user->save();
         seesion('user',$user);
         return json_encode(['resultCode'=>$resultCode]);
