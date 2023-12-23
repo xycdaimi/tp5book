@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\users.html";i:1703252003;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\users.html";i:1703326879;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,9 +21,10 @@
                         <button class="btn btn-success" data-toggle="modal" data-target="#add-user-modal"><i class="bi bi-plus-lg"></i>添加用户</button>
                     </div>
                     <div class="col-lg-8">
-                        <form method="get" id="search-form" action="searchUser">
+                        <form method="get" id="search-form" action="searchUsers">
                             <div class="search">
                                 <select name="search-type" id="search-type" class="form-control">
+                                    <option value="username">用户名</option>
                                     <option value="name">名字</option>
                                     <option value="id-card">借书卡号</option>
                                     <option value="phone">手机号</option>
@@ -45,6 +46,7 @@
                         <thead>
                             <tr>
                             <th>Id</th>
+                            <th>用户名</th>
                             <th>名字</th>
                             <th>性别</th>
                             <th>借书卡号</th>
@@ -58,7 +60,8 @@
                             <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
                             <tr>
                             <th><?php echo $table['Id']; ?></th>
-                            <td><?php echo $table['name']; ?></td>
+                            <td><?php echo $table['username']; ?></td>
+                            <td class="name"><?php echo $table['name']; ?></td>
                             <td><?php echo $table['gender']; ?></td>
                             <td><?php echo $table['id_card']; ?></td>
                             <td><?php echo $table['phone']; ?></td>
@@ -107,28 +110,36 @@
                 <div class="modal-body">
                     <form id="add-user-form">
                         <div class="form-item">
-                            <label for="add-name"><span class="must">*</span>名字</label>
-                            <input type="text" name="add-name" id="add-name" class="form-control" placeholder="名字">
+                            <label for="username"><span class="must">*</span>用户名</label>
+                            <input type="text" name="username" id="username" class="form-control" placeholder="用户名">
                         </div>
                         <div class="form-item">
-                            <label for="add-gender"><span class="must">*</span>性别</label>
-                            <select name="add-gender" id="add-gender" class="form-control">
+                            <label for="password"><span class="must">*</span>密码</label>
+                            <input type="text" name="password" id="password" class="form-control" placeholder="密码">
+                        </div>
+                        <div class="form-item">
+                            <label for="name"><span class="must">*</span>名字</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="名字">
+                        </div>
+                        <div class="form-item">
+                            <label for="gender"><span class="must">*</span>性别</label>
+                            <select name="gender" id="gender" class="form-control">
                                 <option value="">请选择性别</option>
                                 <option value="男">男</option>
                                 <option value="女">女</option>
                             </select>
                         </div>
                         <div class="form-item">
-                            <label for="add-id-card"><span class="must">*</span>借书卡号</label>
-                            <input type="text" name="add-id-card" id="add-id-card" class="form-control" placeholder="借书卡号">
+                            <label for="id-card"><span class="must">*</span>借书卡号</label>
+                            <input type="text" name="id-card" id="id-card" class="form-control" placeholder="借书卡号">
                         </div>
                         <div class="form-item">
-                            <label for="add-phone"><span class="must">*</span>手机号</label>
-                            <input type="text" name="add-phone" id="add-phone" class="form-control" placeholder="手机号">
+                            <label for="phone"><span class="must">*</span>手机号</label>
+                            <input type="text" name="phone" id="phone" class="form-control" placeholder="手机号">
                         </div>
                         <div class="form-item">
-                            <label for="add-identity"><span class="must">*</span>身份</label>
-                            <select name="add-identity" id="add-identity" class="form-control">
+                            <label for="identity"><span class="must">*</span>身份</label>
+                            <select name="identity" id="identity" class="form-control">
                                 <option value="">请选用户身份</option>
                                 <option value="teacher">老师</option>
                                 <option value="student">学生</option>
@@ -156,6 +167,14 @@
                 </div>
                 <div class="modal-body">
                     <form id="edit-user-form">
+                        <div class="form-item">
+                            <label for="edit-username"><span class="must">*</span>用户名</label>
+                            <input type="text" name="edit-username" id="edit-username" class="form-control" placeholder="用户名">
+                        </div>
+                        <div class="form-item">
+                            <label for="edit-password"><span class="must">*</span>密码</label>
+                            <input type="text" name="edit-password" id="edit-password" class="form-control" placeholder="密码">
+                        </div>
                         <div class="form-item">
                             <label for="edit-name">名字</label>
                             <input type="text" name="edit-name" id="edit-name" class="form-control" placeholder="名字">

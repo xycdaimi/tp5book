@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
 use think\Controller;
+use \app\index\model\User;
 class Register extends Controller
 {
     public function index()
@@ -64,7 +65,9 @@ class Register extends Controller
         $user->book_count=$bookCount;
         $user->had_count=$bookCount;
         $user->save();
-        seesion('user',$user);
+        $data = $user->where('username',$username)->find();
+        if(input('post.request')!='add')
+            session('user',$data);
         return json_encode(['resultCode'=>$resultCode]);
     }
 }

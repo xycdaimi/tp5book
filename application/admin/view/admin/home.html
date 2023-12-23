@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/static/css/home.css">
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/css/pagination.css">
     <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -54,18 +55,6 @@
                 </div>
             </div>
 
-            <div class="open-source-information">
-                <div class="card">
-                    <div class="card-header">开源信息</div>
-                    <div class="card-body">
-                        <p>该项目模拟学校图书馆的图书管理系统</p>
-                        <p>码云下载地址：<a href="https://gitee.com/baobao_JK/PHP-Library">Gitee</a></p>
-                        <p>GitHub下载地址：<a href="https://github.com/baobaoJK/PHP-Library">GitHub</a></p>
-                        <p>文档地址：<a href="https://gitee.com/baobao_JK/PHP-Library/blob/master/%E6%96%87%E6%A1%A3/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.md">文档.md</a></p>
-                    </div>
-                </div>
-            </div>
-
             <div class="log">
                 <div class="card">
                     <div class="card-header">日志信息</div>
@@ -74,12 +63,23 @@
                             <thead>
                                 <tr>
                                     <th>操作时间</th>
+                                    <th>用户名</th>
                                     <th>名字</th>
                                     <th>书名</th>
                                     <th>操作信息</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                {volist name='data' id='table'}
+                                <tr>
+                                <td>{$table.time}</td>
+                                <td>{$table.username}</td>
+                                <td>{$table.name}</td>
+                                <td>{$table.book_name}</td>
+                                <td>{$table.info}</td>
+                                </tr>
+                                {/volist}
+                                
                                 <!-- <tr>
                                     <td>2022-3-24 20:00</td>
                                     <td>熊二</td>
@@ -89,10 +89,18 @@
                             </tbody>
                         </table>
                     </div>
+                    
+                </div>
+            </div>
+            <div class="page-box">
+                <div class="m-style pag-box">
+                    {$data->render()}
                 </div>
             </div>
         </div>
+        
     </div>
+    
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

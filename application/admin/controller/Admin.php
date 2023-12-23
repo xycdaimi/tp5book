@@ -26,11 +26,14 @@ class Admin extends Base
     }
     public function home()
     {
+        $operationrecord = new OperationRecord;
+        $data = $operationrecord->getOperationRecord(10);
         $book = new Book;
         $bookCount = $book->getCount();
         $over = new Borrow;
         $overCount = $over->getOverCount();
         $borrow = $over->getCount();
+        $this->assign('data',$data);
         $this->assign('book',$bookCount);
         $this->assign('over',$overCount);
         $this->assign('borrow',$borrow);
@@ -107,10 +110,18 @@ class Admin extends Base
         $p=input('page');
         if($p>0){
             $p=($p-1)*10;
-        }
+        } 
         $this->assign('data',$data);
         $this->assign('p',$p);
         return $this->fetch();
+    }
+    public function searchusers(){
+        $type = input('search-type');
+        $text = input('search-text');
+        $user = $this->searchusersguanli($text,$type);
+        $this->assign('data',$user['data']);
+        $this->assign('p',$user['p']);
+        return $this->fetch('users');
     }
     public function about()
     {

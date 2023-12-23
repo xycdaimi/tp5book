@@ -70,7 +70,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/static/img/background.jpeg);
+    background-image: url(/static/img/login.jpeg);
 }
 
 /* 登录面板样式 */

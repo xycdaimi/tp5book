@@ -42,7 +42,6 @@ class Base extends Controller
         $press = input('post.edit-press');
         $price = input('post.edit-price');
         $count = input('post.edit-count');
-        $isbn = input('post.edit-isbn');
         $book = Book::get(['isbn'=>$id]);
         $resultCode=1;
         // 修改组别字段
@@ -79,17 +78,8 @@ class Base extends Controller
             }else{$resultCode=0;}
         }
     
-        // 修改图书编号
-        if(!empty($isbn)){
-            $re = Book::get(['isbn'=>$isbn]);
-            if(count($re)){
-                $resultCode=0;
-            }else{
-                $book->isbn=$isbn;
-            }
-        }
         if($resultCode){
-            if($book->save()!=1){
+            if($book->isUpdate(true)->save()!=1){
                 $resultCode=0;
             }
         }
@@ -133,6 +123,7 @@ class Base extends Controller
             $res->delete();
             $operationRecord->data([
                 'time'=>date("Y-m-d H:i:s"),
+                'username'=>$userborrow['username'],
                 'name'=>$userborrow['name'],
                 'book_name'=>$data['name'],
                 'info'=>'还回了'.$data['name'].'书籍'
@@ -179,6 +170,7 @@ class Base extends Controller
                     $operationRecord = new OperationRecord;
                     $operationRecord->data([
                         'time'=>date("Y-m-d H:i:s"),
+                        'username'=>$res[0]['username'],
                         'name'=>$res[0]['name'],
                         'book_name'=>$count['name'],
                         'info'=>'借走了'.$count['name'].'书籍'
@@ -265,5 +257,148 @@ class Base extends Controller
             'data'=>$data,
             'p'=>$p
         ];  
+    }
+    public function searchusersguanli($text,$type)
+    {
+        $user = new User;
+        if($text!=''){
+        $user = $user->where(getSearchUsersType($type),'like',"%$text%");
+        }
+        $data=$user->where('groups','user')->order('id_card')->paginate(10,false,['query'=>['search-type'=>$type,'search-text'=>$text]]);
+        $p=input('page');
+        if($p>0){
+            $p=($p-1)*10;
+        }
+        return [
+            'data'=>$data,
+            'p'=>$p
+        ];  
+    }
+    public function deleteuser(){
+        $id = input('post.id');
+        $resultCode=0;
+        if(User::destroy(['Id'=>$id])==1){
+            $resultCode=1;
+        }
+        return json_encode(['resultCode'=>$resultCode]);
+    }
+    public function edituser(){
+        $id = input('post.id');
+        $username = input('post.edit-username');
+        $password = input('post.edit-password');
+        $name = input('post.edit-name');
+        $gender = input('post.edit-gender');
+        $idCard = input('post.edit-id-card');
+        $phone = input('post.edit-phone');
+        $identity = input('post.edit-identity');
+        $user = User::get(['Id'=>$id]);
+        $xinxi = new User;
+        $resultCode=1;
+        if(!empty($username)){
+            $data = $xinxi->where('username',$username)->count();
+            if($data){
+                $resultCode=-2;
+                    return json_encode(['resultCode'=>$resultCode]);
+            }
+            $user->username=$username;
+        }
+        if(!empty($password)){
+            $user->password=$password;
+        }
+
+        // 修改名字字段
+        if(!empty($name)){
+            $user->name=$name;
+        }
+
+        
+        if(!empty($gender)){
+            $user->gender=$gender;
+        }
+
+        
+        if(!empty($idCard)){
+            $data = $xinxi->where('id_card',$idCard)->count();
+            if($data){
+                $resultCode=-3;
+                    return json_encode(['resultCode'=>$resultCode]);
+            }
+            $user->id_card=$idCard;
+        }
+
+        
+        if(!empty($phone)){
+            $data = $xinxi->where('phone',$phone)->count();
+            if($data){
+                $resultCode=-4;
+                    return json_encode(['resultCode'=>$resultCode]);
+            }
+            $user->phone=$phone;
+        }
+
+        
+        if(!empty($identity)){
+            $iden=getUserIdentity($identity);
+            $u = getUserIdentity($user->identity);
+            if($iden=='老师'&&$u='学生'){
+                $user->book_count=5;
+                $user->had_count=$user->had_count+2;
+            }
+            else if($iden=='学生'&&$u='老师'){
+                $user->book_count=3;
+                if($user->had_count<2){
+                    $resultCode=-1;
+                    return json_encode(['resultCode'=>$resultCode]);
+                }
+                else{
+                    $user->had_count=$user->had_count-2;
+                }
+            }
+            $user->identity=$iden;
+        }
+        if($resultCode){
+            if($user->isUpdate(true)->save()!=1){
+                $resultCode=0;
+            }
+        }
+        return json_encode(['resultCode'=>$resultCode]);
+    }
+    public function addbooktype(){
+        $name = input('post.add-type-name');
+        $type = new BookType;
+        $booktype = $type->where('type_name',$name)->find();
+        $resultCode=0;
+        if(!$booktype){
+            $type->type_name=$name;
+            if($type->save()){
+                $resultCode=1;
+            }
+        }
+        return json_encode(['resultCode'=>$resultCode]);
+    }
+    public function deletebooktype(){
+        $name = input('post.delete-type-name');
+        $type = new BookType;
+        $booktype = $type->where('type_name',$name)->find();
+        $resultCode=0;
+        if($booktype){
+            $booktype->delete();
+            $resultCode=1;
+        }
+        return json_encode(['resultCode'=>$resultCode]);
+    }
+    public function editadminpassword(){
+        $password= input('post.edit-admin-password');
+        $resultCode=0;
+        $user = new User;
+        $admin = $user->where('Id','1')->find();
+        $admin->password=md5($password);
+        if($admin->isUpdate(true)->save()){
+            $up = session('user');
+            $up['password']=md5($password);
+            session('user',$up);
+            $resultCode=1;
+        }
+        return json_encode(['resultCode'=>$resultCode]);
     }
 }

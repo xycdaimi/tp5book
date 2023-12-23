@@ -1,4 +1,3 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\book.html";i:1703326250;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +16,7 @@
         <div class="book">
             <div class="operate-pane">
                 <div class="row">
-                    <div class="col-lg-2">
-                        <button class="btn btn-success add-button" data-toggle="modal" data-target="#add-book-modal"><i class="bi bi-plus-lg"></i>添加图书</button>
-                    </div>
+                    <div class="col-lg-2"></div>
                     <div class="col-lg-8">
                         <form method="get" id="search-form" action="searchBook">
                             <div class="search">
@@ -58,22 +55,22 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
+                            {volist name='data' id='table'}
                             <tr>
-                            <th><?php echo ++$p; ?></th>
-                            <td><?php echo $table['groups']; ?></td>
-                            <td class="name"><?php echo $table['name']; ?></td>
-                            <td><?php echo $table['author']; ?></td>
-                            <td><?php echo $table['press']; ?></td>
-                            <td><?php echo $table['price']; ?></td>
-                            <td><?php echo $table['quantity']; ?></td>
-                            <td><?php echo $table['isbn']; ?></td>
+                            <th>{++$p}</th>
+                            <td>{$table.groups}</td>
+                            <td class="name">{$table.name}</td>
+                            <td>{$table.author}</td>
+                            <td>{$table.press}</td>
+                            <td>{$table.price}</td>
+                            <td>{$table.quantity}</td>
+                            <td>{$table.isbn}</td>
                             <td>
-                                <button class="btn btn-primary btn-edit" data-toggle="modal" data-target="#edit-book-modal" name="<?php echo $table['isbn']; ?>"><i class="bi bi-pencil-square"></i>编辑</button>
-                                <button class="btn btn-danger btn-delete" data-toggle="modal" data-target="#delete-book-modal" name="<?php echo $table['isbn']; ?>"><i class="bi bi-trash"></i>删除</button>
+                                <button class="btn btn-primary btn-edit" data-toggle="modal" data-target="#edit-book-modal" name="{$table.isbn}"><i class="bi bi-pencil-square"></i>编辑</button>
+                                <button class="btn btn-danger btn-delete" data-toggle="modal" data-target="#delete-book-modal" name="{$table.isbn}"><i class="bi bi-trash"></i>删除</button>
                             </td>
                             </tr>
-                            <?php endforeach; endif; else: echo "" ;endif; ?>
+                            {/volist}
                         <!-- 样板 -->
                         <!-- <tr>
                             <th>1</th>
@@ -95,7 +92,7 @@
 
                 <div class="page-box">
                     <div class="m-style pag-box">
-                        <?php echo $data->render(); ?>
+                        {$data->render()}
                     </div>
                 </div>
             </div>
@@ -117,9 +114,9 @@
                             <label for="add-group"><span class="must">*</span>所属组</label>
                             <select name="add-group" id="add-group" class="form-control groups">
                                 <option value="">请选择图书所属组</option>
-                                <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
-                                <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
+                                {volist name='groups' id='option'}
+                                <option value="{$option.type_name}">{$option.type_name}</option>
+                                {/volist}
                                 <!-- <option value="地理">地理</option>
                                 <option value="历史">历史</option> -->
                             </select>
@@ -174,9 +171,9 @@
                             <label for="edit-group">所属组</label>
                             <select name="edit-group" id="edit-group" class="form-control groups">
                                 <option value="">请选择图书所属组</option>
-                                <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
-                                <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
+                                {volist name='groups' id='option'}
+                                <option value="{$option.type_name}">{$option.type_name}</option>
+                                {/volist}
                                 <!-- <option value="地理">地理</option>
                                 <option value="历史">历史</option> -->
                             </select>

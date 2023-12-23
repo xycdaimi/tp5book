@@ -100,3 +100,9 @@ body,
 .log .card-body th,td{
     width: 400px;
 }
+.page-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

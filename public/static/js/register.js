@@ -42,7 +42,6 @@ $(function(){
             alert("请输入身份");
         }
         else{
-            registerForm.append("request", "register");
             register(registerForm);
         }
     });

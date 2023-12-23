@@ -39,3 +39,26 @@ function getSearchType($type){
         return 'isbn';
     }
 }
+
+function getSearchUsersType($type){
+    if($type == "name"){
+        return 'name';
+    }
+    else if($type == "id-card"){
+        return 'id_card';
+    }
+    else if($type == "phone"){
+        return 'phone';
+    }
+    else if($type == "username"){
+        return 'username';
+    }
+}
+function getUserIdentity($type){
+    if($type == 'student'){
+        return '学生';
+    }
+    else if($type == 'teacher'){
+        return '老师';
+    }
+}

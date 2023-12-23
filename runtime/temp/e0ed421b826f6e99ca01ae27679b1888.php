@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\about.html";i:1703256978;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\about.html";i:1703299877;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,9 +24,8 @@
                     <p>&nbsp;&nbsp;Apache2.4.54.2</p>
                     <p>&nbsp;&nbsp;Php8.0.26</p>
                     <p>&nbsp;&nbsp;MySql8.0.31</p>
-                    <p>码云下载地址：<a href="https://gitee.com/baobao_JK/PHP-Library">Gitee</a></p>
-                    <p>GitHub下载地址：<a href="https://github.com/baobaoJK/PHP-Library">GitHub</a></p>
-                    <p>文档地址：<a href="https://gitee.com/baobao_JK/PHP-Library/blob/master/%E6%96%87%E6%A1%A3/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.md">文档.md</a></p>
+                    <p>GitHub下载地址：<a href="https://github.com/xycdaimi/tp5book/tree/master">GitHub</a></p>
+                    <p>文档地址：<a href="https://github.com/xycdaimi/tp5book/blob/main/README.md">文档.md</a></p>
                 </div>
             </div>
         </div>

@@ -61,7 +61,7 @@
                             <tr>
                             <th>{++$p}</th>
                             <td>{$table.groups}</td>
-                            <td>{$table.name}</td>
+                            <td class="name">{$table.name}</td>
                             <td>{$table.author}</td>
                             <td>{$table.press}</td>
                             <td>{$table.price}</td>
@@ -200,10 +200,6 @@
                             <label for="edit-count">数量(本)</label>
                             <input type="text" name="edit-count" id="edit-count" class="form-control" placeholder="数量(本)">
                         </div>
-                        <div class="form-item">
-                            <label for="edit-isbn">ISBN号码</label>
-                            <input type="text" name="edit-isbn" id="edit-isbn" class="form-control" placeholder="ISBN号码">
-                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -236,7 +232,6 @@
     </div>
 
     <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/jquery.pagination.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/js/book.js"></script>
