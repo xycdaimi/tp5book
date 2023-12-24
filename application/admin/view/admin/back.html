@@ -43,6 +43,7 @@
                             <th>借阅人</th>
                             <th>借阅人ID卡</th>
                             <th>借阅人手机</th>
+                            <th>还书截止日期</th>
                             <th>操作</th>
                             </tr>
                         </thead>
@@ -55,23 +56,12 @@
                             <td>{$table.username}</td>
                             <td>{$table.id_card}</td>
                             <td>{$table.phone}</td>
+                            <td>{$table.r_time}</td>
                             <td>
                                 <button class="btn btn-success btn-return" data-toggle="modal" data-target="#return-book-modal" name="{$table.id}"><i class="bi bi-box-arrow-in-left"></i>归还</button>
                             </td>
                             </tr>
                             {/volist}
-                        <!-- 样板 -->
-                        <!-- <tr>
-                            <th>1</th>
-                            <td>房龙地理</td>
-                            <td>9780000000001</td>
-                            <td>张三</td>
-                            <td>20220001</td>
-                            <td>13700000001</td>
-                            <td>
-                                <button class="btn btn-primary btn-edit">归还</button>
-                            </td>
-                            </tr> -->
                         </tbody>
                     </table>
                 </div>

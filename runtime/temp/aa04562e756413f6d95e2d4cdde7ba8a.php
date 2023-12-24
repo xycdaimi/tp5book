@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/users\view\users\users.html";i:1703339775;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/users\view\users\users.html";i:1703424307;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +29,7 @@
                             <li class="nav-item">
                                 <a class="nav-link bar-link" data-target="#book-bar" data-toggle="collapse" href="#" aria-expanded="false"><i class="bi bi-book"></i>图书<i class="bi bi-chevron-down"></i></a>
                                 <div class="collapse item-bar" id="book-bar">
-                                    <a data-id="#library-frame" data-url="<?php echo $book; ?>">图书管理</a>
+                                    <a data-id="#library-frame" data-url="<?php echo $book; ?>">图书查询</a>
                                     <a data-id="#library-frame" data-url="<?php echo $borrow; ?>">借阅图书</a>
                                     <a data-id="#library-frame" data-url="<?php echo $back; ?>">归还图书</a>
                                 </div>
@@ -43,7 +43,6 @@
                             <li class="nav-item">
                                 <a class="nav-link bar-link" data-target="#system-bar" data-toggle="collapse" href="#" aria-expanded="false"><i class="bi bi-gear"></i>其他<i class="bi bi-chevron-down"></i></a>
                                 <div class="collapse item-bar" id="system-bar">
-                                    <a data-id="#library-frame" data-url="<?php echo $system; ?>">系统管理</a>
                                     <a data-id="#library-frame" data-url="<?php echo $about; ?>">关于</a>
                                 </div>
                             </li>

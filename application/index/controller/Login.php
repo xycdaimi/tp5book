@@ -8,6 +8,11 @@ class Login extends Controller
     {
         $username = input('post.username');
         $password = md5(input('post.password'));
+        $code = input('post.code');
+        if(!captcha_check($code)){
+            $resultCode=-1;
+            return json_encode(['resultCode'=>$resultCode]);
+        }
         $user=User::all(['username'=>$username,'password'=>$password]);
         $resultCode = count($user);
         if($resultCode==1){

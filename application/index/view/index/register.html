@@ -30,7 +30,7 @@
                     <input type="text" name="phone" id="phone" class="phone" placeholder="手机号" autocomplete="off">
                     <input type="submit" name="register-button" id="register-button" class="register-button" value="注册">
                     <input type="submit" name="login-button" id="login-button" class="login-button" value="返回登录">
-                    <span>Version 1.0</span>
+                    <span>Version 2.0</span>
                 </form>
             </div>
             <div class="login-pane-left col-6">
@@ -40,6 +40,27 @@
                 </div>
             </div>
             
+        </div>
+        <!-- 删除图书模态框 -->
+        <div class="modal fade" id="code-modal" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">验证码</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post" class="code-form">
+                        <input type="text" name="code" id="code" class="codeimg" placeholder="验证码" autocomplete="off">
+                        <img src="{:captcha_src()}" onclick="this.src=this.src+'?'+Math.random();" alt="" id="image" class="image">
+                    </form> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger code-button">确定</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>

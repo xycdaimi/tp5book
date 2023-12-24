@@ -21,9 +21,11 @@
                 <form class="login-form" method="post" action="">
                     <input type="text" name="username" id="username" class="username" placeholder="用户名" autocomplete="off">
                     <input type="password" name="password" id="password" class="password" placeholder="密码" autocomplete="off">
+                    <input type="text" name="code" id="code" class="code" placeholder="验证码" autocomplete="off">
+                    <img src="{:captcha_src()}" onclick="this.src=this.src+'?'+Math.random();" alt="" id="image" class="image">
                     <input type="submit" name="login-button" id="login-button" class="login-button" value="登录">
                     <input type="submit" name="register-button" id="register-button" class="register-button" value="注册">
-                    <span>Version 1.0</span>
+                    <span>Version 2.0</span>
                     <span><a href="" data-toggle="modal" data-target="#password-modal">忘记密码</a></span>
                 </form>
             </div>

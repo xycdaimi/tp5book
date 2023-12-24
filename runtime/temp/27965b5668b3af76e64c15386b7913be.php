@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\home.html";i:1703332019;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\home.html";i:1703426459;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +39,7 @@
                         <div class="borrow">
                             <i class="bi bi-clipboard-data"></i>
                             <div class="text">
-                                <p class="title">借出书本数量</p>
+                                <p class="title">剩余可借书本数量</p>
                                 <p class="subtitle"><?php echo $borrow; ?></p>
                             </div>
                         </div>
@@ -58,44 +58,40 @@
 
             <div class="log">
                 <div class="card">
-                    <div class="card-header">日志信息</div>
+                    <div class="card-header">借阅的书籍</div>
                     <div class="card-body">
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>操作时间</th>
-                                    <th>用户名</th>
-                                    <th>名字</th>
+                                    <th>ISBN</th>
                                     <th>书名</th>
-                                    <th>操作信息</th>
+                                    <th>类别</th>
+                                    <th>作者</th>
+                                    <th>借阅时间</th>
+                                    <th>截止时间</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
                                 <tr>
-                                <td><?php echo $table['time']; ?></td>
-                                <td><?php echo $table['username']; ?></td>
-                                <td><?php echo $table['name']; ?></td>
-                                <td><?php echo $table['book_name']; ?></td>
-                                <td><?php echo $table['info']; ?></td>
+                                    <td><?php echo $table['isbn']; ?></td>
+                                    <td><?php echo $table['name']; ?></td>
+                                    <td><?php echo $table['groups']; ?></td>
+                                    <td><?php echo $table['author']; ?></td>
+                                    <td><?php echo $table['time']; ?></td>
+                                    <td><?php echo $table['r_time']; ?></td>
                                 </tr>
                                 <?php endforeach; endif; else: echo "" ;endif; ?>
-                                
-                                <!-- <tr>
-                                    <td>2022-3-24 20:00</td>
-                                    <td>熊二</td>
-                                    <td>HTML入门到精通</td>
-                                    <td>借走了 HTML入门到精通 书籍</td>
-                                </tr> -->
                             </tbody>
                         </table>
                     </div>
                     
                 </div>
             </div>
+
+            
             <div class="page-box">
                 <div class="m-style pag-box">
-                    <?php echo $data->render(); ?>
                 </div>
             </div>
         </div>

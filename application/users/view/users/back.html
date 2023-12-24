@@ -1,4 +1,3 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\back.html";i:1703424554;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +19,7 @@
                     <div class="col-lg-2">
                     </div>
                     <div class="col-lg-8">
-                        <form id="search-form" method="get" action="searchBorrow">
+                        <form id="search-form" method="get" action="searchborrow">
                             <div class="search">
                                 <input type="text" class="form-control" name="search-text" id="search-text" placeholder="ISBN号码">
                                 <button type="submit" class="btn btn-primary btn-search" name="search-button" id="search-button">搜索</button>
@@ -41,46 +40,30 @@
                             <th>Id</th>
                             <th>书名</th>
                             <th>ISBN号码</th>
-                            <th>借阅人</th>
-                            <th>借阅人ID卡</th>
-                            <th>借阅人手机</th>
+                            <th>借书日期</th>
                             <th>还书截止日期</th>
                             <th>操作</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
+                            {volist name='data' id='table'}
                             <tr>
-                            <th><?php echo ++$p; ?></th>
-                            <td class="name"><?php echo $table['name']; ?></td>
-                            <td><?php echo $table['isbn']; ?></td>
-                            <td><?php echo $table['username']; ?></td>
-                            <td><?php echo $table['id_card']; ?></td>
-                            <td><?php echo $table['phone']; ?></td>
-                            <td><?php echo $table['r_time']; ?></td>
+                            <th>{++$p}</th>
+                            <td class="name">{$table.name}</td>
+                            <td>{$table.isbn}</td>
+                            <td>{$table.time}</td>
+                            <td>{$table.r_time}</td>
                             <td>
-                                <button class="btn btn-success btn-return" data-toggle="modal" data-target="#return-book-modal" name="<?php echo $table['id']; ?>"><i class="bi bi-box-arrow-in-left"></i>归还</button>
+                                <button class="btn btn-success btn-return" data-toggle="modal" data-target="#return-book-modal" name="{$table.id}"><i class="bi bi-box-arrow-in-left"></i>归还</button>
                             </td>
                             </tr>
-                            <?php endforeach; endif; else: echo "" ;endif; ?>
-                        <!-- 样板 -->
-                        <!-- <tr>
-                            <th>1</th>
-                            <td>房龙地理</td>
-                            <td>9780000000001</td>
-                            <td>张三</td>
-                            <td>20220001</td>
-                            <td>13700000001</td>
-                            <td>
-                                <button class="btn btn-primary btn-edit">归还</button>
-                            </td>
-                            </tr> -->
+                            {/volist}
                         </tbody>
                     </table>
                 </div>
 
                 <div class="page-box">
-                    <div class="m-style pag-box"><?php echo $data->render(); ?></div>
+                    <div class="m-style pag-box">{$data->render()}</div>
                 </div>
             </div>
         </div>

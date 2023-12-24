@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户管理</title>
+    <link rel="stylesheet" href="/static/css/users.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/css/pagination.css">
+    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="app">
+        <div class="user">
+            <div class="operate-pane">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <button class="btn btn-primary btn-edit" data-toggle="modal" data-target="#edit-user-modal" name="{$user.Id}"><i class="bi bi-pencil-square"></i>编辑</button>
+                        <p>&nbsp;&nbsp;</p>
+                        <button class="btn btn-danger btn-delete" data-toggle="modal" data-target="#delete-user-modal" name="{$user.Id}"><i class="bi bi-trash"></i>注销</button>
+                    </div>
+                </div>
+            </div>
+            <div class="user-pane">
+                <div class="page-box">
+                    <div>
+                        <h1>用户信息</h1>
+                        <p>姓名：<span class="user-name"></span>{$user.name}</p>
+                        <p>用户名：<span class="user-username">{$user.username}</span></p>
+                        <p>性别：<span class="user-gender">{$user.gender}</span></p>
+                        <p>身份: <span class="user-identity">{$user.identity}</span></p>
+                        <p>借记卡号: <span class="user-id-card">{$user.id_card}</span></p>
+                        <p>手机号：<span class="user-phone">{$user.phone}</span></p>
+                        <p>剩余可借书量(本): <span class="user-had-count">{$user.had_count}</span></p>
+                        <p>总可借书量(本): <span class="user-book-count">{$user.book_count}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 编辑用户模态框 -->
+        <div class="modal fade" id="edit-user-modal" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">编辑用户</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="edit-user-form">
+                        <div class="form-item">
+                            <label for="edit-username"><span class="must"></span>用户名</label>
+                            <input type="text" name="edit-username" id="edit-username" class="form-control" placeholder="用户名">
+                        </div>
+                        <div class="form-item">
+                            <label for="edit-password"><span class="must"></span>密码</label>
+                            <input type="text" name="edit-password" id="edit-password" class="form-control" placeholder="密码">
+                        </div>
+                        <div class="form-item">
+                            <label for="edit-name">名字</label>
+                            <input type="text" name="edit-name" id="edit-name" class="form-control" placeholder="名字">
+                        </div>
+                        <div class="form-item">
+                            <label for="edit-gender">性别</label>
+                            <select name="edit-gender" id="edit-gender" class="form-control">
+                                <option value="">请选择性别</option>
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label for="edit-phone">手机号</label>
+                            <input type="text" name="edit-phone" id="edit-phone" class="form-control" placeholder="手机号">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary edit-user-button">编辑</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 删除用户模态框 -->
+        <div class="modal fade" id="delete-user-modal" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">删除用户</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>确定注销 <span id="">{$user.name}</span> 此账号吗？</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger delete-user-button">注销</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/consumer.js"></script>
+</body>
+</html>

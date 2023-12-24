@@ -33,3 +33,6 @@ body,html{
 .must{
     color: red;
 }
+.image{
+    margin-bottom: 10px;
+}

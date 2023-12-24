@@ -16,5 +16,11 @@ return [
         '__FONT__'               =>'/static/font',
     ],
     'tpl_cache'=>false,
+    'Captcha'=>[
+        'length'=>5,
+        'useCurve'=>true,
+        'useNoise'=>true,
+        'codeSet'=>'123456789qwertyuiopasdfghjklzxcvbnm',
+    ],
 ];
 ?>

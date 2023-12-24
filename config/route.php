@@ -4,6 +4,7 @@ think\Route::rule('addBook','index/base/addbook');
 think\Route::rule('editBook','index/base/editbook');
 think\Route::rule('deleteBook','index/base/deletebook');
 think\Route::rule('borrowBook','index/base/borrowbook1');
+think\Route::rule('borrowbook','index/base/borrowbook2');
 think\Route::rule("search",'index/base/searchbook2');
 think\Route::rule("backBook",'index/base/backborrow');
 think\Route::rule("deleteUser",'index/base/deleteuser');
@@ -35,6 +36,12 @@ think\Route::rule('system','admin/admin/system');
 think\Route::rule('user','users/users/users');
 think\Route::rule('userhome','users/users/home');
 think\Route::rule('userbook','users/users/book');
+think\Route::rule('userborrow','users/users/borrow');
+think\Route::rule('userback','users/users/back');
+think\Route::rule('consumer','users/users/consumer');
+think\Route::rule('searchbook','users/users/searchbook');
+think\Route::rule('searchborrow','users/users/searchborrow');
+
 
 
 //index

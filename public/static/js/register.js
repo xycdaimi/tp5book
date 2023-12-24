@@ -42,8 +42,25 @@ $(function(){
             alert("请输入身份");
         }
         else{
-            register(registerForm);
+            var dt = document.getElementById("register-button");
+            dt.setAttribute("data-toggle","modal");
+            dt.setAttribute("data-target","#code-modal");
         }
+    });
+    //验证码
+    $(document).on('click', '.code-button', function (e) {
+        e.preventDefault();
+        var registerForm = new FormData($('.login-form')[0]);
+        var code = new  FormData($('.code-form')[0]);
+        var co = code.get('code');
+        registerForm.append('code', co);
+        register(registerForm);
+    });
+    $(document).on('click', '.close', function (e) {
+        e.preventDefault();
+        var dt = document.getElementById("register-button");
+        dt.removeAttribute("data-toggle","modal");
+        dt.removeAttribute("data-target","#code-modal");
     });
     
 });
@@ -59,23 +76,36 @@ function register(registerForm){
         contentType: false,
         dataType: "json",
         success: function (data) {
-            console.log(data);
             var jsonData = JSON.parse(data);
+            console.log(jsonData);
             if(jsonData.resultCode == 0){
                 alert("注册成功");
                 window.location.replace('user');
             }
             else if(jsonData.resultCode == 1){
                 alert("借记卡号已存在");
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
             }
             else if(jsonData.resultCode == 2){
                 alert("手机号已存在");
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
             }
             else if(jsonData.resultCode == 3){
                 alert("用户名已存在");
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
+            }
+            else if(jsonData.resultCode == -1){
+                alert("验证码错误");
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
             }
             else{
                 alert('出现错误');
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
             }
         },
         error: function (data) {

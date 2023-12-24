@@ -67,10 +67,12 @@ function login(loginForm){
         contentType: false,
         dataType: "json",
         success: function (data) {
-            console.log(data);
             var jsonData = JSON.parse(data);
+            console.log(jsonData);
             if(jsonData.resultCode == 0){
                 alert("用户名或密码错误");
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
             }
             else if(jsonData.resultCode == 1){
                 alert("登录成功");
@@ -80,8 +82,15 @@ function login(loginForm){
                 alert("登录成功");
                 window.location.replace('admin');
             }
+            else if(jsonData.resultCode == -1){
+                alert("验证码错误");
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
+            }
             else{
                 alert('出现错误');
+                var img = document.getElementById("image");
+                img.src=img.src+'?'+Math.random();
             }
         },
         error: function (data) {

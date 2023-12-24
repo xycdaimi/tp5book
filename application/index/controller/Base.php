@@ -203,16 +203,84 @@ class Base extends Controller
         }
         return json_encode(['resultCode'=>$resultCode]);
     }
-    public function searchbook1($text,$type="isbn")
+    public function borrowbook2(){
+        $isbn = input('post.isbn');
+        $bookname = input('post.bookname');
+
+        
+        $resultCode=0;
+        $book = new Book;
+        $borrow = new Borrow;
+        $user = new User;
+        $yong = session('user');
+        $username = $yong['username'];
+        $idCard = $yong['id_card'];
+        $phone = $yong['phone'];
+
+        $count = $book->where('isbn',$isbn)->find();
+        if($count->quantity){
+            $res=$user->where(['username'=>$username,'id_card'=>$idCard,'phone'=>$phone])->select();
+            if(count($res)==1){
+                if(!$res[0]['had_count']){
+                    $resultCode=-4;
+                    return json_encode(['resultCode'=>$resultCode]);
+                }
+                $nowDate = date("Y-m-d H:i:s");
+                $futureDate = date("Y-m-d H:i:s",strtotime("+1 month"));
+                $borrow->data([
+                    'name'=>$bookname,
+                    'isbn'=>$isbn,
+                    'username'=>$username,
+                    'id_card'=>$idCard,
+                    'phone'=>$phone,
+                    'time'=>$nowDate,
+                    'r_time'=>$futureDate
+                ]);
+                if($borrow->save()){
+                    $operationRecord = new OperationRecord;
+                    $operationRecord->data([
+                        'time'=>date("Y-m-d H:i:s"),
+                        'username'=>$res[0]['username'],
+                        'name'=>$res[0]['name'],
+                        'book_name'=>$count['name'],
+                        'info'=>'借走了'.$count['name'].'书籍'
+                    ]);
+                    if($operationRecord->save()){
+                        $count->quantity=$count->quantity-1;
+                        if($count->isUpdate(true)->save()){
+                            $ci = $yong['had_count'];
+                            $yong['had_count']=$ci-1;
+                            session('user',$yong);
+                            $res[0]['had_count']=$res[0]['had_count']-1;
+                            $res[0]->isUpdate(true)->save();
+                            $resultCode=1;
+                        }
+                    }
+                    else{
+                        $resultCode=-2;
+                    }
+                }
+                else
+                {
+                    $resultCode=-1;
+                }
+            }
+            else{
+                $resultCode=-3;
+            }
+        }
+        return json_encode(['resultCode'=>$resultCode]);
+    }
+    public function searchbook1($pg,$text,$type="isbn")
     {
         $book = new Book;
         if($text!=''){
         $book = $book->where(getSearchType($type),'like',"%$text%");
         }
-        $data=$book->order('isbn')->paginate(10,false,['query'=>['search-type'=>$type,'search-text'=>$text]]);
+        $data=$book->order('isbn')->paginate($pg,false,['query'=>['search-type'=>$type,'search-text'=>$text]]);
         $p=input('page');
         if($p>0){
-            $p=($p-1)*10;
+            $p=($p-1)*$pg;
         }
         return [
             'data'=>$data,
@@ -225,7 +293,7 @@ class Base extends Controller
         $book = $book->where(getSearchType($type),'like',"%$text%");
         }
         $data=$book->order('isbn')->find();
-        return $data;
+        return json_encode($data);
     }
     public function searchborrow1($text){
         $borrow = new Borrow;
@@ -236,6 +304,22 @@ class Base extends Controller
         $p=input('page');
         if($p>0){
             $p=($p-1)*10;
+        }
+        return [
+            'data'=>$data,
+            'p'=>$p
+        ];  
+    }
+    public function searchborrow2($text){
+        $borrow = new Borrow;
+        if($text!=''){
+            $borrow = $borrow->where('isbn','like',"%$text%");
+        }
+        $user = session('user');
+        $data = $borrow->where('username',$user['username'])->order('isbn')->paginate(12,false,['query'=>['search-text'=>$text]]);
+        $p=input('page');
+        if($p>0){
+            $p=($p-1)*12;
         }
         return [
             'data'=>$data,
@@ -277,8 +361,13 @@ class Base extends Controller
     public function deleteuser(){
         $id = input('post.id');
         $resultCode=0;
+        $user = session('user');
         if(User::destroy(['Id'=>$id])==1){
             $resultCode=1;
+        }
+        if($user['Id']==$id){
+            session(null);
+            $resultCode=2;
         }
         return json_encode(['resultCode'=>$resultCode]);
     }
@@ -303,7 +392,7 @@ class Base extends Controller
             $user->username=$username;
         }
         if(!empty($password)){
-            $user->password=$password;
+            $user->password=md5($password);
         }
 
         // 修改名字字段
@@ -360,6 +449,10 @@ class Base extends Controller
             if($user->isUpdate(true)->save()!=1){
                 $resultCode=0;
             }
+        }
+        $u = session('user');
+        if($u['Id']==$user->Id){
+            session('user',$user);
         }
         return json_encode(['resultCode'=>$resultCode]);
     }

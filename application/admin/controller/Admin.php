@@ -27,7 +27,7 @@ class Admin extends Base
     public function home()
     {
         $operationrecord = new OperationRecord;
-        $data = $operationrecord->getOperationRecord(10);
+        $data = $operationrecord->getOperationRecord(9);
         $book = new Book;
         $bookCount = $book->getCount();
         $over = new Borrow;
@@ -59,7 +59,7 @@ class Admin extends Base
         $text = input('search-text');
         $group = new BookType;
         $groups = $group->getGroups();
-        $book=$this->searchbook1($text,$type);
+        $book=$this->searchbook1(10,$text,$type);
         $this->assign('data',$book['data']);
         $this->assign('p',$book['p']);
         $this->assign('groups',$groups);

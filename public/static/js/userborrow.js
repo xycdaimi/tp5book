@@ -30,22 +30,10 @@ $(function(){
         // 获取信息
         var isbn = $('#search-text').val();
         var bookname = $('.book-name').text();
-        var username = borrowForm.get('username');
-        var idCard = borrowForm.get('id-card');
-        var phone = borrowForm.get('phone');
         
         // 判断信息
         if(isbn == '' || bookname == ''){
             alert("请输入借阅的图书 ISBN 号码");
-        }
-        else if(username == ''){
-            alert("请输入借阅人用户名");
-        }
-        else if(idCard == ''){
-            alert("请输入借阅人卡号");
-        }
-        else if(phone == ''){
-            alert("请输入借阅人手机号");
         }
         else{
             borrowForm.append("type", "borrow");
@@ -75,6 +63,7 @@ function searchBook(searchForm){
             $('.book-press').text(jsonData.press);
             $('.book-isbn').text(jsonData.isbn);
             $('.book-quantity').text(jsonData.quantity);
+            $('.book-groups').text(jsonData.groups);
         },
         error: function (data) {
             // 报错
@@ -89,7 +78,7 @@ function searchBook(searchForm){
 function borrowBook(borrowForm){
     $.ajax({
         type: "post",
-        url: "borrowBook",
+        url: "borrowbook",
         data: borrowForm,
         cache: false,
         processData: false,
@@ -100,7 +89,7 @@ function borrowBook(borrowForm){
             console.log(jsonData);
 
             if(jsonData.resultCode == 0){
-                alert("借阅图书失败，借阅人身份不存在或该图书库存不足");
+                alert("借阅图书失败，该图书库存不足");
             }
             else if(jsonData.resultCode == 1){
                 alert("借阅成功");

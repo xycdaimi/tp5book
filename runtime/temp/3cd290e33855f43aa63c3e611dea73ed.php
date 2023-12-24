@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\users.html";i:1703326879;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\users.html";i:1703418767;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -168,11 +168,11 @@
                 <div class="modal-body">
                     <form id="edit-user-form">
                         <div class="form-item">
-                            <label for="edit-username"><span class="must">*</span>用户名</label>
+                            <label for="edit-username"><span class="must"></span>用户名</label>
                             <input type="text" name="edit-username" id="edit-username" class="form-control" placeholder="用户名">
                         </div>
                         <div class="form-item">
-                            <label for="edit-password"><span class="must">*</span>密码</label>
+                            <label for="edit-password"><span class="must"></span>密码</label>
                             <input type="text" name="edit-password" id="edit-password" class="form-control" placeholder="密码">
                         </div>
                         <div class="form-item">

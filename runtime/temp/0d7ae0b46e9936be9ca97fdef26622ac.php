@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\book.html";i:1703340134;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\book.html";i:1703383867;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8">
-                        <form method="get" id="search-form" action="searchBook">
+                        <form method="get" id="search-form" action="searchbook">
                             <div class="search">
                                 <select name="search-type" id="search-type" class="form-control">
                                     <option value="group">组名</option>
@@ -52,7 +52,7 @@
                             <th>价格(人民币)</th>
                             <th>数量(本)</th>
                             <th>ISBN号码</th>
-                            <th>操作</th>
+                            <!-- <th>操作</th> -->
                             </tr>
                         </thead>
                         <tbody>
@@ -66,10 +66,10 @@
                             <td><?php echo $table['price']; ?></td>
                             <td><?php echo $table['quantity']; ?></td>
                             <td><?php echo $table['isbn']; ?></td>
-                            <td>
+                            <!-- <td>
                                 <button class="btn btn-primary btn-edit" data-toggle="modal" data-target="#edit-book-modal" name="<?php echo $table['isbn']; ?>"><i class="bi bi-pencil-square"></i>编辑</button>
                                 <button class="btn btn-danger btn-delete" data-toggle="modal" data-target="#delete-book-modal" name="<?php echo $table['isbn']; ?>"><i class="bi bi-trash"></i>删除</button>
-                            </td>
+                            </td> -->
                             </tr>
                             <?php endforeach; endif; else: echo "" ;endif; ?>
                         <!-- 样板 -->
@@ -100,7 +100,7 @@
         </div>
 
         <!-- 添加图书模态框 -->
-        <div class="modal fade" id="add-book-modal" data-backdrop="static" data-keyboard="false">
+        <!-- <div class="modal fade" id="add-book-modal" data-backdrop="static" data-keyboard="false">
             <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
@@ -117,10 +117,10 @@
                                 <option value="">请选择图书所属组</option>
                                 <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
                                 <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
+                                <?php endforeach; endif; else: echo "" ;endif; ?> -->
                                 <!-- <option value="地理">地理</option>
                                 <option value="历史">历史</option> -->
-                            </select>
+                            <!-- </select>
                         </div>
                         <div class="form-item">
                             <label for="add-name"><span class="must">*</span>书名</label>
@@ -154,10 +154,10 @@
                 </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- 编辑图书模态框 -->
-        <div class="modal fade" id="edit-book-modal" data-backdrop="static" data-keyboard="false">
+        <!-- <div class="modal fade" id="edit-book-modal" data-backdrop="static" data-keyboard="false">
             <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
@@ -174,10 +174,10 @@
                                 <option value="">请选择图书所属组</option>
                                 <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
                                 <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
+                                <?php endforeach; endif; else: echo "" ;endif; ?> -->
                                 <!-- <option value="地理">地理</option>
                                 <option value="历史">历史</option> -->
-                            </select>
+                            <!-- </select>
                         </div>
                         <div class="form-item">
                             <label for="edit-name">书名</label>
@@ -207,10 +207,10 @@
                 </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- 删除图书模态框 -->
-        <div class="modal fade" id="delete-book-modal" data-backdrop="static" data-keyboard="false">
+        <!-- <div class="modal fade" id="delete-book-modal" data-backdrop="static" data-keyboard="false">
             <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
@@ -228,11 +228,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/static/js/book.js"></script>
 </body>
 </html>

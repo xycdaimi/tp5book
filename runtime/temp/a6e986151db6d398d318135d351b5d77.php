@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/index\view\index\login.html";i:1702308088;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/index\view\index\login.html";i:1703429870;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +22,8 @@
                 <form class="login-form" method="post" action="">
                     <input type="text" name="username" id="username" class="username" placeholder="用户名" autocomplete="off">
                     <input type="password" name="password" id="password" class="password" placeholder="密码" autocomplete="off">
+                    <input type="text" name="code" id="code" class="code" placeholder="验证码" autocomplete="off">
+                    <img src="<?php echo captcha_src(); ?>" onclick="this.src=this.src+'?'+Math.random();" alt="" id="image" class="image">
                     <input type="submit" name="login-button" id="login-button" class="login-button" value="登录">
                     <input type="submit" name="register-button" id="register-button" class="register-button" value="注册">
                     <span>Version 1.0</span>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html";i:1703334496;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html";i:1703339801;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,8 +44,8 @@
                             <li class="nav-item">
                                 <a class="nav-link bar-link" data-target="#system-bar" data-toggle="collapse" href="#" aria-expanded="false"><i class="bi bi-gear"></i>其他<i class="bi bi-chevron-down"></i></a>
                                 <div class="collapse item-bar" id="system-bar">
-                                    <a data-id="#library-frame" data-url="<?php echo $about; ?>">关于</a>
                                     <a data-id="#library-frame" data-url="<?php echo $system; ?>">系统管理</a>
+                                    <a data-id="#library-frame" data-url="<?php echo $about; ?>">关于</a>
                                 </div>
                             </li>
 

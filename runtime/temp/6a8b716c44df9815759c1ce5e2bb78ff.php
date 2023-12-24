@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/index\view\index\register.html";i:1702293444;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/index\view\index\register.html";i:1703432747;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +41,27 @@
                 </div>
             </div>
             
+        </div>
+        <!-- 删除图书模态框 -->
+        <div class="modal fade" id="code-modal" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">验证码</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post" class="code-form">
+                        <input type="text" name="code" id="code" class="codeimg" placeholder="验证码" autocomplete="off">
+                        <img src="<?php echo captcha_src(); ?>" onclick="this.src=this.src+'?'+Math.random();" alt="" id="image" class="image">
+                    </form> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger code-button">确定</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>

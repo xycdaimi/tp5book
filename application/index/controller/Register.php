@@ -13,6 +13,11 @@ class Register extends Controller
         $idCard = input('post.id-card');
         $phone = input('post.phone');
         $identity = input('post.identity');
+        $code = input('post.code');
+        if(!captcha_check($code)){
+            $resultCode=-1;
+            return json_encode(['resultCode'=>$resultCode]);
+        }
         $user = User::all(function($query) use ($idCard,$phone,$username){$query->where('id_card',$idCard)->whereor('phone',$phone)->whereor('username',$username);});
         $resultCode = count($user);
         if($resultCode!=0){
