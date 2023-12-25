@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\book.html";i:1703383867;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\book.html";i:1703477904;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,7 +52,6 @@
                             <th>价格(人民币)</th>
                             <th>数量(本)</th>
                             <th>ISBN号码</th>
-                            <!-- <th>操作</th> -->
                             </tr>
                         </thead>
                         <tbody>
@@ -66,27 +65,8 @@
                             <td><?php echo $table['price']; ?></td>
                             <td><?php echo $table['quantity']; ?></td>
                             <td><?php echo $table['isbn']; ?></td>
-                            <!-- <td>
-                                <button class="btn btn-primary btn-edit" data-toggle="modal" data-target="#edit-book-modal" name="<?php echo $table['isbn']; ?>"><i class="bi bi-pencil-square"></i>编辑</button>
-                                <button class="btn btn-danger btn-delete" data-toggle="modal" data-target="#delete-book-modal" name="<?php echo $table['isbn']; ?>"><i class="bi bi-trash"></i>删除</button>
-                            </td> -->
                             </tr>
                             <?php endforeach; endif; else: echo "" ;endif; ?>
-                        <!-- 样板 -->
-                        <!-- <tr>
-                            <th>1</th>
-                            <td>地理</td>
-                            <td>房龙地理</td>
-                            <td>房龙</td>
-                            <td>文汇出版社</td>
-                            <td>29.00</td>
-                            <td>10</td>
-                            <td>9780000000001</td>
-                            <td>
-                                <button class="btn btn-primary btn-edit">编辑</button>
-                                <button class="btn btn-danger btn-delete">删除</button>
-                            </td>
-                            </tr> -->
                         </tbody>
                     </table>
                 </div>
@@ -98,138 +78,7 @@
                 </div>
             </div>
         </div>
-
-        <!-- 添加图书模态框 -->
-        <!-- <div class="modal fade" id="add-book-modal" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">添加图书</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form id="add-book-form">
-                        <div class="form-item">
-                            <label for="add-group"><span class="must">*</span>所属组</label>
-                            <select name="add-group" id="add-group" class="form-control groups">
-                                <option value="">请选择图书所属组</option>
-                                <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
-                                <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
-                                <?php endforeach; endif; else: echo "" ;endif; ?> -->
-                                <!-- <option value="地理">地理</option>
-                                <option value="历史">历史</option> -->
-                            <!-- </select>
-                        </div>
-                        <div class="form-item">
-                            <label for="add-name"><span class="must">*</span>书名</label>
-                            <input type="text" name="add-name" id="add-name" class="form-control" placeholder="书名">
-                        </div>
-                        <div class="form-item">
-                            <label for="add-author"><span class="must">*</span>作者</label>
-                            <input type="text" name="add-author" id="add-author" class="form-control" placeholder="作者">
-                        </div>
-                        <div class="form-item">
-                            <label for="add-press"><span class="must">*</span>出版社</label>
-                            <input type="text" name="add-press" id="add-press" class="form-control" placeholder="出版社">
-                        </div>
-                        <div class="form-item">
-                            <label for="add-price"><span class="must">*</span>价格(人民币)</label>
-                            <input type="text" name="add-price" id="add-price" class="form-control" placeholder="价格(人民币)">
-                        </div>
-                        <div class="form-item">
-                            <label for="add-count"><span class="must">*</span>数量(本)</label>
-                            <input type="text" name="add-count" id="add-count" class="form-control" placeholder="数量(本)">
-                        </div>
-                        <div class="form-item">
-                            <label for="add-isbn"><span class="must">*</span>ISBN号码</label>
-                            <input type="text" name="add-isbn" id="add-isbn" class="form-control" placeholder="ISBN号码">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
-                    <button type="button" class="btn btn-primary add-book-button">添加</button>
-                </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- 编辑图书模态框 -->
-        <!-- <div class="modal fade" id="edit-book-modal" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">编辑图书</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form id="edit-book-form">
-                        <div class="form-item">
-                            <label for="edit-group">所属组</label>
-                            <select name="edit-group" id="edit-group" class="form-control groups">
-                                <option value="">请选择图书所属组</option>
-                                <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
-                                <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
-                                <?php endforeach; endif; else: echo "" ;endif; ?> -->
-                                <!-- <option value="地理">地理</option>
-                                <option value="历史">历史</option> -->
-                            <!-- </select>
-                        </div>
-                        <div class="form-item">
-                            <label for="edit-name">书名</label>
-                            <input type="text" name="edit-name" id="edit-name" class="form-control" placeholder="书名">
-                        </div>
-                        <div class="form-item">
-                            <label for="edit-author">作者</label>
-                            <input type="text" name="edit-author" id="edit-author" class="form-control" placeholder="作者">
-                        </div>
-                        <div class="form-item">
-                            <label for="edit-press">出版社</label>
-                            <input type="text" name="edit-press" id="edit-press" class="form-control" placeholder="出版社">
-                        </div>
-                        <div class="form-item">
-                            <label for="edit-price">价格(人民币)</label>
-                            <input type="text" name="edit-price" id="edit-price" class="form-control" placeholder="价格(人民币)">
-                        </div>
-                        <div class="form-item">
-                            <label for="edit-count">数量(本)</label>
-                            <input type="text" name="edit-count" id="edit-count" class="form-control" placeholder="数量(本)">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
-                    <button type="button" class="btn btn-primary edit-book-button">编辑</button>
-                </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- 删除图书模态框 -->
-        <!-- <div class="modal fade" id="delete-book-modal" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">删除图书</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>确定删除 <span id="delete-name"></span> 此书吗？</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger delete-book-button">删除</button>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

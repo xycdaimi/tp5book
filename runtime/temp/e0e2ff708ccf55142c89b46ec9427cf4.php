@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html";i:1703339801;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html";i:1703478111;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,9 +80,6 @@
                             <li class="nav-item">
                                 <a class="nav-link active" data-id="#library-frame" data-url="home" data-toggle="link" style="padding-right:0px;">主页</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" data-id="#library-frame" data-url="book.php" data-toggle="link">图书管理</a><i class="bi bi-x tab-close"></i>
-                            </li> -->
                         </ul>
 
                     </div>

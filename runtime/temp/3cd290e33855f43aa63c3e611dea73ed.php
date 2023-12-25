@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\users.html";i:1703418767;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\users.html";i:1703478017;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,20 +73,6 @@
                             </td>
                             </tr>
                             <?php endforeach; endif; else: echo "" ;endif; ?>
-                        <!-- 样板 -->
-                        <!-- <tr>
-                            <th>1</th>
-                            <td>admin</td>
-                            <td>男</td>
-                            <td>10000000</td>
-                            <td>10000000000</td>
-                            <td>管理员</td>
-                            <td>999</td>
-                            <td>
-                                <button class="btn btn-primary btn-edit">编辑</button>
-                                <button class="btn btn-danger btn-delete">删除</button>
-                            </td>
-                            </tr> -->
                         </tbody>
                     </table>
                 </div>
@@ -233,6 +219,7 @@
             </div>
         </div>
     </div>
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

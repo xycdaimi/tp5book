@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html";i:1703332019;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\home.html";i:1703477992;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,13 +80,6 @@
                                 <td><?php echo $table['info']; ?></td>
                                 </tr>
                                 <?php endforeach; endif; else: echo "" ;endif; ?>
-                                
-                                <!-- <tr>
-                                    <td>2022-3-24 20:00</td>
-                                    <td>熊二</td>
-                                    <td>HTML入门到精通</td>
-                                    <td>借走了 HTML入门到精通 书籍</td>
-                                </tr> -->
                             </tbody>
                         </table>
                     </div>
@@ -101,7 +94,7 @@
         </div>
         
     </div>
-    
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

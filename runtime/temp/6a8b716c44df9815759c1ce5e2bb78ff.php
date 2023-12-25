@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/index\view\index\register.html";i:1703432747;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/index\view\index\register.html";i:1703484697;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +31,7 @@
                     <input type="text" name="phone" id="phone" class="phone" placeholder="手机号" autocomplete="off">
                     <input type="submit" name="register-button" id="register-button" class="register-button" value="注册">
                     <input type="submit" name="login-button" id="login-button" class="login-button" value="返回登录">
-                    <span>Version 1.0</span>
+                    <span>Version 2.1</span>
                 </form>
             </div>
             <div class="login-pane-left col-6">

@@ -43,6 +43,10 @@ class Base extends Controller
         $price = input('post.edit-price');
         $count = input('post.edit-count');
         $book = Book::get(['isbn'=>$id]);
+        $borrow = new Borrow;
+        $borr = $borrow->where('isbn',$id)->select();
+        $operationRecord = new OperationRecord;
+        $op = $operationRecord->where('book_name',$book['name'])->select();
         $resultCode=1;
         // 修改组别字段
         if(!empty($group)){
@@ -82,6 +86,15 @@ class Base extends Controller
             if($book->isUpdate(true)->save()!=1){
                 $resultCode=0;
             }
+        }
+        foreach ($borr as $key => $value) {
+            $value['name']=$book->name;
+            $value->isUpdate(true)->save();
+        }
+        foreach ($op as $key => $value) {
+            $value['book_name']=$book->name;
+            $value['info']=mb_substr($value['info'],0,3).$book->name.'书籍';
+            $value->isUpdate(true)->save();
         }
         return json_encode(['resultCode'=>$resultCode]);
     }
@@ -381,6 +394,10 @@ class Base extends Controller
         $phone = input('post.edit-phone');
         $identity = input('post.edit-identity');
         $user = User::get(['Id'=>$id]);
+        $borrow = new Borrow;
+        $borr = $borrow->where('username',$user['username'])->select();
+        $operationRecord = new OperationRecord;
+        $op = $operationRecord->where('username',$user['username'])->select();
         $xinxi = new User;
         $resultCode=1;
         if(!empty($username)){
@@ -450,6 +467,17 @@ class Base extends Controller
                 $resultCode=0;
             }
         }
+        foreach ($borr as $key => $value) {
+            $value['username']=$user->username;
+            $value['id_card']=$user->id_card;
+            $value['phone']=$user->phone;
+            $value->isUpdate(true)->save();
+        }
+        foreach ($op as $key => $value) {
+            $value['name']=$user->name;
+            $value['username']=$user->username;
+            $value->isUpdate(true)->save();
+        }
         $u = session('user');
         if($u['Id']==$user->Id){
             session('user',$user);
@@ -469,14 +497,46 @@ class Base extends Controller
         }
         return json_encode(['resultCode'=>$resultCode]);
     }
+    public function editbooktype(){
+        $oldname = input('post.edit-old-type-name');
+        $newname = input('post.edit-new-type-name');
+        $resultCode=0;
+        $type = new BookType;
+        $book = new Book;
+        $booktype = $type->where('type_name',$oldname)->find();
+        if($booktype){
+            $type->type_name=$newname;
+            if($type->save()){
+                $data = $book->where('groups',$oldname)->select();
+                foreach ($data as $key => $value) {
+                    $value['groups']=$newname;
+                    $value->isUpdate(true)->save();
+                }
+                $booktype->delete();
+                $resultCode=1;
+            }
+            else{
+                $resultCode=-1;
+            }
+        }
+        return json_encode(['resultCode'=>$resultCode]);
+    }
+
     public function deletebooktype(){
         $name = input('post.delete-type-name');
-        $type = new BookType;
-        $booktype = $type->where('type_name',$name)->find();
         $resultCode=0;
-        if($booktype){
-            $booktype->delete();
-            $resultCode=1;
+        $book = new Book;
+        $shu = $book->where('groups',$name)->count();
+        if($shu){
+            $resultCode=-1;
+        }
+        else{
+            $type = new BookType;
+            $booktype = $type->where('type_name',$name)->find();
+            if($booktype){
+                $booktype->delete();
+                $resultCode=1;
+            }
         }
         return json_encode(['resultCode'=>$resultCode]);
     }

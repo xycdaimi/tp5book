@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\home.html";i:1703426459;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/users\view\users\home.html";i:1703477794;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,7 +97,7 @@
         </div>
         
     </div>
-    
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

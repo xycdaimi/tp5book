@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html";i:1703176087;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\borrow.html";i:1703477987;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +42,7 @@
             </div>
         </div>
     </div>
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

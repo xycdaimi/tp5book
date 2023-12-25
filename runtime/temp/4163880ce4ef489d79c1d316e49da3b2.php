@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\system.html";i:1702623445;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\system.html";i:1703484100;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +18,7 @@
                 <div class="card-header">系统设置</div>
                 <div class="card-body">
                     <button class="btn btn-primary" data-toggle="modal" data-target="#add-type-modal">添加图书种类</button>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#edit-type-modal">修改图书种类</button>
                     <button class="btn btn-primary" data-toggle="modal" data-target="#delete-type-modal">删除图书种类</button>
                     <button class="btn btn-primary" data-toggle="modal" data-target="#edit-admin-modal">修改管理员 admin 密码</button>
                 </div>
@@ -45,6 +46,34 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
                     <button type="button" class="btn btn-success add-type-button">添加</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 修改图书种类模态框 -->
+        <div class="modal fade" id="edit-type-modal" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">修改图书种类</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="edit-type-form">
+                        <div class="form-item">
+                            <label for="edit-old-type-name"><span class="must">*</span>旧种类名</label>
+                            <input type="text" name="edit-old-type-name" id="edit-old-type-name" class="form-control" placeholder="旧种类名">
+                            <label for="edit-new-type-name"><span class="must">*</span>新种类名</label>
+                            <input type="text" name="edit-new-type-name" id="edit-new-type-name" class="form-control" placeholder="新种类名">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-success edit-type-button">修改</button>
                 </div>
                 </div>
             </div>
@@ -102,6 +131,7 @@
                 </div>
             </div>
         </div>
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

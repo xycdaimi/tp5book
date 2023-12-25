@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\overtime.html";i:1703250539;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\overtime.html";i:1703477997;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,17 +62,6 @@
                             <td><?php echo $table['r_time']; ?></td>
                             </tr>
                             <?php endforeach; endif; else: echo "" ;endif; ?>
-                        <!-- 样板 -->
-                        <!-- <tr>
-                            <th>1</th>
-                            <td>房龙地理</td>
-                            <td>9780000000001</td>
-                            <td>张三</td>
-                            <td>20220001</td>
-                            <td>13700000001</td>
-                            <td>2022-5-10 12:00</td>
-                            <td>2022-5-17 12:00</td>
-                            </tr> -->
                         </tbody>
                     </table>
                 </div>
@@ -83,6 +72,7 @@
             </div>
         </div>
     </div>
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

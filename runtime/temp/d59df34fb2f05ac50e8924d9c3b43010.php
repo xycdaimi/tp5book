@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\book.html";i:1703326250;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\book.html";i:1703477979;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,21 +74,6 @@
                             </td>
                             </tr>
                             <?php endforeach; endif; else: echo "" ;endif; ?>
-                        <!-- 样板 -->
-                        <!-- <tr>
-                            <th>1</th>
-                            <td>地理</td>
-                            <td>房龙地理</td>
-                            <td>房龙</td>
-                            <td>文汇出版社</td>
-                            <td>29.00</td>
-                            <td>10</td>
-                            <td>9780000000001</td>
-                            <td>
-                                <button class="btn btn-primary btn-edit">编辑</button>
-                                <button class="btn btn-danger btn-delete">删除</button>
-                            </td>
-                            </tr> -->
                         </tbody>
                     </table>
                 </div>
@@ -120,8 +105,6 @@
                                 <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
                                 <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
                                 <?php endforeach; endif; else: echo "" ;endif; ?>
-                                <!-- <option value="地理">地理</option>
-                                <option value="历史">历史</option> -->
                             </select>
                         </div>
                         <div class="form-item">
@@ -231,7 +214,7 @@
             </div>
         </div>
     </div>
-
+    <script src="/static/js/canvas-nest.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

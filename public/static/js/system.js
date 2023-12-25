@@ -18,6 +18,29 @@ $(function(){
         }
     });
 
+
+    // 修改图书种类按钮
+    $('.edit-type-button').click(function (e) { 
+        e.preventDefault();
+        
+        // 获取表单
+        var editForm = new FormData($('#edit-type-form')[0]);
+
+        // 获取信息
+        var oldname = editForm.get('edit-old-type-name');
+        var newname = editForm.get('edit-new-type-name');
+
+        if(oldname == ''){
+            alert("请输入旧图书种类名");
+        }
+        else if(newname == ''){
+            alert("请输入新图书种类名");
+        }
+        else{
+            editTypeName(editForm);
+        }
+    });
+
     // 删除图书种类按钮
     $('.delete-type-button').click(function (e) { 
         e.preventDefault();
@@ -74,6 +97,9 @@ function addTypeName(addForm){
                 alert("添加成功");
                 window.location.reload('./');
             }
+            else if(jsonData.resultCode == -1){
+                alert("该图书种类在书库中还有库存书籍");
+            }
             else{
                 alert("出现错误")
             }
@@ -86,6 +112,43 @@ function addTypeName(addForm){
         }
     });
 }
+
+// 修改图书种类
+function editTypeName(editForm){
+    $.ajax({
+        type: "post",
+        url: "editBookType",
+        data: editForm,
+        cache: false,
+        processData: false,
+        contentType: false,
+        dataType: "json",
+        success: function (data) {
+            var jsonData = JSON.parse(data);
+            console.log(jsonData);
+            if(jsonData.resultCode == 0){
+                alert("旧图书种类不存在");
+            }
+            else if(jsonData.resultCode == 1){
+                alert("修改成功");
+                window.location.reload('./');
+            }
+            else if(jsonData.resultCode == -1){
+                alert("修改失败");
+            }
+            else{
+                alert("出现错误")
+            }
+        },
+        error: function (data) {
+            // 报错
+            // alert("服务器错误");
+            // 日志
+            console.log(data);
+        }
+    });
+}
+
 
 // 删除图书种类
 function deleteTypeName(deleteForm){

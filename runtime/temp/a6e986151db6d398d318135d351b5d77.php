@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/index\view\index\login.html";i:1703429870;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/index\view\index\login.html";i:1703484690;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +26,7 @@
                     <img src="<?php echo captcha_src(); ?>" onclick="this.src=this.src+'?'+Math.random();" alt="" id="image" class="image">
                     <input type="submit" name="login-button" id="login-button" class="login-button" value="登录">
                     <input type="submit" name="register-button" id="register-button" class="register-button" value="注册">
-                    <span>Version 1.0</span>
+                    <span>Version 2.1</span>
                     <span><a href="" data-toggle="modal" data-target="#password-modal">忘记密码</a></span>
                 </form>
             </div>

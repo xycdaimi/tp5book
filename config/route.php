@@ -10,6 +10,7 @@ think\Route::rule("backBook",'index/base/backborrow');
 think\Route::rule("deleteUser",'index/base/deleteuser');
 think\Route::rule("editUser",'index/base/edituser');
 think\Route::rule("addBookType",'index/base/addbooktype');
+think\Route::rule("editBookType",'index/base/editbooktype');
 think\Route::rule("deleteBookType",'index/base/deletebooktype');
 think\Route::rule("editAdminPassword",'index/base/editadminpassword');
 
