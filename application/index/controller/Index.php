@@ -12,11 +12,14 @@ class Index extends Controller
     {
         if(session('?user')){
             $user = session('user');
-            if($user['groups']=='admin'){
-                $this->redirect('admin/admin/admin');
-            }
-            else if($user['groups']=='user'){
-                $this->redirect('user/user/user');
+            if(!$user){$this->redirect('/');}
+            else{
+                if($user['groups']=='admin'){
+                    $this->redirect('admin/admin/admin');
+                }
+                else if($user['groups']=='user'){
+                    $this->redirect('user/user/user');
+                }
             }
         }
         return $this->fetch();

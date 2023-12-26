@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html";i:1703478111;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\admin.html";i:1703494831;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +78,7 @@
                         <!-- Nav pills -->
                         <ul class="nav" id="tabs">
                             <li class="nav-item">
-                                <a class="nav-link active" data-id="#library-frame" data-url="home" data-toggle="link" style="padding-right:0px;">主页</a>
+                                <a class="nav-link active" data-id="#library-frame" data-url="<?php echo $home; ?>" data-toggle="link" style="padding-right:0px;">主页</a>
                             </li>
                         </ul>
 

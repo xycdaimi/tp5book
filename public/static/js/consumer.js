@@ -70,14 +70,10 @@ function deleteUser(deleteForm){
             var jsonData = JSON.parse(data);
             console.log(jsonData);
             if(jsonData.resultCode == 0){
-                alert("删除失败，该用户不存在");
-            }
-            else if(jsonData.resultCode == 1){
-                alert("删除成功");
-                window.location.replace('./');
+                alert("注销失败");
             }
             else if(jsonData.resultCode == 2){
-                alert("删除成功");
+                alert("注销成功");
                 top.location.replace('/');
             }
             else{

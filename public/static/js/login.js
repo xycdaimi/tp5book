@@ -101,7 +101,7 @@ function login(loginForm){
         }
     });
 }
-
+//找回密码
 function repassword(passwordForm){
     $.ajax({
         type: "post",
@@ -119,6 +119,7 @@ function repassword(passwordForm){
             }
             else if(jsonData.resultCode == 1){
                 alert("修改成功");
+                window.location.reload('./');
             }
             else{
                 alert('出现错误');

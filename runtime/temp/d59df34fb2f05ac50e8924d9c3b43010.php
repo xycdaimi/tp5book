@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\book.html";i:1703477979;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"A:\wamp64\www\phptp5\public/../application/admin\view\admin\book.html";i:1703512274;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -160,8 +160,6 @@
                                 <?php if(is_array($groups) || $groups instanceof \think\Collection || $groups instanceof \think\Paginator): $i = 0; $__LIST__ = $groups;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$option): $mod = ($i % 2 );++$i;?>
                                 <option value="<?php echo $option['type_name']; ?>"><?php echo $option['type_name']; ?></option>
                                 <?php endforeach; endif; else: echo "" ;endif; ?>
-                                <!-- <option value="地理">地理</option>
-                                <option value="历史">历史</option> -->
                             </select>
                         </div>
                         <div class="form-item">

@@ -28,15 +28,12 @@ class Login extends Controller
         $idCard = input('post.password-id-card');
         $phone = input('post.password-phone');
         $newPassword = md5(input('post.password-password'));
-        $user=User::all(['name'=>$name,'id_card'=>$idCard,'phone'=>$phone]);
+        $user=User::all(['username'=>$name,'id_card'=>$idCard,'phone'=>$phone]);
         $resultCode = count($user);
         if($resultCode==1){
             $user[0]->password=$newPassword;
             $user[0]->save();
         }
-        $reuser = session('user');
-        $reuser['password']=$newPassword;
-        session('user',$reuser);
         return json_encode(['resultCode'=>$resultCode]);
     }
 }

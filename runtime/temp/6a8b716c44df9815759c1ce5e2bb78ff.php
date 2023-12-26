@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/index\view\index\register.html";i:1703484697;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"A:\wamp64\www\phptp5\public/../application/index\view\index\register.html";i:1703510685;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +42,7 @@
             </div>
             
         </div>
-        <!-- 删除图书模态框 -->
+        <!-- 验证码模态框 -->
         <div class="modal fade" id="code-modal" data-backdrop="static" data-keyboard="false">
             <div class="modal-dialog">
                 <div class="modal-content">

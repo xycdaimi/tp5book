@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/index\view\index\login.html";i:1703484690;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"A:\wamp64\www\phptp5\public/../application/index\view\index\login.html";i:1703516198;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +46,7 @@
             <div class="modal-body">
                 <form id="password-form">
                     <div class="form-item">
-                        <label for="password-name"><span class="must">*</span>名字</label>
+                        <label for="password-name"><span class="must">*</span>用户名</label>
                         <input type="text" name="password-name" id="password-name" class="form-control" placeholder="名字">
                     </div>
                     <div class="form-item">
