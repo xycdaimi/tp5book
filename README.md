@@ -1,4 +1,4 @@
-ThinkPHP 5.0
+基于ThinkPHP 5.0开发的图书管理系统
 ===============
 
 [![Total Downloads](https://poser.pugx.org/topthink/think/downloads)](https://packagist.org/packages/topthink/think)
